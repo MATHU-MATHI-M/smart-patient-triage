@@ -1,0 +1,501 @@
+visit_id,patient_id,visit_timestamp,chief_complaint,visit_status
+1,164,2026-02-04 15:46:37,Headache,active
+2,7,2026-02-14 04:50:37,Ear pain,active
+3,71,2026-02-01 14:34:57,Abdominal pain,active
+4,58,2026-01-24 09:51:12,Back pain,active
+5,189,2026-01-21 03:15:27,Headache,active
+6,174,2026-01-31 16:47:11,Ear pain,active
+7,140,2026-01-20 06:54:31,Fever,active
+8,152,2026-01-16 02:26:14,Joint pain,active
+9,9,2026-01-18 01:33:48,Chest pain,active
+10,24,2026-02-02 08:14:32,Dizziness,active
+11,60,2026-02-13 03:26:20,Skin rash,active
+12,155,2026-02-06 01:59:42,Chest pain,active
+13,144,2026-02-02 15:57:08,Dizziness,active
+14,184,2026-02-06 16:23:56,Weight gain,active
+15,180,2026-02-03 22:27:04,Burning urination,active
+16,108,2026-01-29 20:53:28,Abdominal pain,active
+17,115,2026-01-26 07:33:00,Frequent urination,active
+18,72,2026-01-27 22:39:11,Weakness,active
+19,2,2026-02-07 14:36:05,Numbness in limbs,active
+20,41,2026-01-31 21:46:22,Sore throat,active
+21,109,2026-01-25 19:25:30,Palpitations,active
+22,72,2026-02-14 10:34:17,Back pain,active
+23,56,2026-01-24 14:29:05,Numbness in limbs,active
+24,87,2026-01-19 22:25:33,Headache,active
+25,24,2026-02-05 00:39:41,Seizure episode,active
+26,25,2026-02-14 06:54:13,Loss of consciousness,active
+27,89,2026-02-02 17:54:22,Weight loss,active
+28,68,2026-01-17 07:27:01,Weakness,active
+29,12,2026-02-06 00:15:24,Ear pain,active
+30,118,2026-01-15 22:54:01,Burning urination,active
+31,32,2026-01-22 05:43:39,Seizure episode,active
+32,21,2026-01-20 15:20:38,Burning urination,active
+33,76,2026-02-06 14:23:21,Loss of appetite,active
+34,161,2026-01-29 16:34:38,Weight loss,active
+35,93,2026-02-12 10:03:13,Frequent urination,active
+36,50,2026-02-04 23:43:37,Sore throat,active
+37,18,2026-01-16 17:56:29,Shortness of breath,active
+38,170,2026-02-01 17:30:14,Abdominal pain,active
+39,198,2026-01-22 13:45:52,Diarrhea,active
+40,21,2026-01-22 12:16:36,Abdominal pain,active
+41,26,2026-02-06 14:46:33,Seizure episode,active
+42,72,2026-02-14 08:04:56,Swelling in legs,active
+43,163,2026-01-31 20:35:03,Loss of appetite,active
+44,94,2026-02-02 09:31:01,Fatigue,active
+45,95,2026-01-29 00:25:49,Loss of consciousness,active
+46,54,2026-02-06 01:06:40,Persistent cough,active
+47,69,2026-01-31 07:28:39,Sore throat,active
+48,175,2026-02-12 16:18:19,Weight gain,active
+49,19,2026-01-25 20:05:20,Weight loss,active
+50,163,2026-01-16 01:27:42,Fatigue,active
+51,137,2026-02-09 09:33:39,Ear pain,active
+52,63,2026-01-18 04:51:22,Fatigue,active
+53,119,2026-01-23 11:12:22,Seizure episode,active
+54,70,2026-02-01 09:49:00,Weight gain,active
+55,177,2026-02-08 09:18:47,Burning urination,active
+56,57,2026-01-25 08:33:48,Persistent cough,active
+57,84,2026-01-31 19:03:34,Loss of appetite,active
+58,197,2026-01-29 07:16:17,Numbness in limbs,active
+59,15,2026-02-04 20:45:41,Abdominal pain,active
+60,9,2026-02-08 14:27:29,Weakness,active
+61,81,2026-01-31 21:36:01,Seizure episode,active
+62,69,2026-02-01 12:19:14,Fever,active
+63,55,2026-02-12 07:00:11,Frequent urination,active
+64,184,2026-02-01 08:05:54,Palpitations,active
+65,55,2026-01-17 14:50:27,Weight gain,active
+66,128,2026-01-18 09:39:28,Seizure episode,active
+67,165,2026-01-26 09:08:17,Swelling in legs,active
+68,37,2026-01-17 05:42:25,Vomiting,active
+69,36,2026-02-01 17:16:49,Abdominal pain,active
+70,191,2026-02-14 16:49:02,Burning urination,active
+71,138,2026-02-05 13:16:33,Vomiting,active
+72,192,2026-02-07 05:49:19,Frequent urination,active
+73,110,2026-02-12 08:12:44,Frequent urination,active
+74,103,2026-01-27 16:53:51,Loss of consciousness,active
+75,57,2026-01-29 23:49:08,Back pain,active
+76,131,2026-02-04 07:48:57,Blurred vision,active
+77,24,2026-02-07 13:39:12,Numbness in limbs,active
+78,13,2026-01-23 03:24:34,Headache,active
+79,40,2026-01-26 04:27:55,Weight gain,active
+80,41,2026-02-13 12:23:38,Weakness,active
+81,175,2026-01-26 22:58:14,Joint pain,active
+82,153,2026-02-03 16:32:09,Fever,active
+83,99,2026-02-11 00:17:41,Seizure episode,active
+84,153,2026-01-22 20:13:36,Swelling in legs,active
+85,136,2026-01-17 09:34:17,Vomiting,active
+86,142,2026-02-05 20:49:36,Chest pain,active
+87,175,2026-01-16 16:57:28,Ear pain,active
+88,30,2026-01-24 15:32:31,Persistent cough,active
+89,138,2026-02-11 12:03:05,Numbness in limbs,active
+90,69,2026-01-25 22:06:40,Numbness in limbs,active
+91,165,2026-01-15 13:24:52,Palpitations,active
+92,29,2026-01-25 11:29:51,Diarrhea,active
+93,112,2026-01-16 05:17:01,Fatigue,active
+94,117,2026-01-19 21:42:44,Chest pain,active
+95,185,2026-01-20 09:14:35,Ear pain,active
+96,68,2026-02-12 18:24:13,Skin rash,active
+97,196,2026-01-16 22:22:38,Fatigue,active
+98,130,2026-01-26 20:46:21,Headache,active
+99,161,2026-01-25 11:36:05,Diarrhea,active
+100,164,2026-01-18 01:28:15,Skin rash,active
+101,156,2026-02-13 23:29:06,Dizziness,active
+102,40,2026-02-14 13:49:09,Loss of consciousness,active
+103,196,2026-02-08 11:50:52,Fatigue,active
+104,139,2026-01-17 14:55:20,Numbness in limbs,active
+105,136,2026-02-10 03:53:12,Chest pain,active
+106,154,2026-02-10 01:45:18,Palpitations,active
+107,126,2026-01-26 01:49:30,Chest pain,active
+108,29,2026-01-24 11:06:11,Loss of consciousness,active
+109,79,2026-01-21 17:36:06,Abdominal pain,active
+110,15,2026-02-03 20:10:45,Abdominal pain,active
+111,146,2026-01-25 09:15:42,Fever,active
+112,22,2026-02-14 05:18:41,Ear pain,active
+113,125,2026-02-08 09:53:29,Loss of appetite,active
+114,18,2026-01-24 14:55:23,Numbness in limbs,active
+115,137,2026-02-12 17:02:36,Numbness in limbs,active
+116,33,2026-01-19 19:24:13,Back pain,active
+117,169,2026-01-21 21:13:03,Blurred vision,active
+118,141,2026-01-18 05:43:32,Fatigue,active
+119,68,2026-01-29 18:01:12,Skin rash,active
+120,156,2026-01-20 09:12:05,Joint pain,active
+121,55,2026-02-03 15:09:39,Burning urination,active
+122,194,2026-01-16 00:19:41,Ear pain,active
+123,177,2026-01-31 18:28:59,Dizziness,active
+124,183,2026-02-12 16:30:19,Diarrhea,active
+125,103,2026-01-25 20:45:54,Persistent cough,active
+126,167,2026-02-03 10:34:37,Loss of consciousness,active
+127,113,2026-01-17 18:57:49,Skin rash,active
+128,116,2026-01-25 05:29:05,Headache,active
+129,64,2026-02-02 13:03:05,Abdominal pain,active
+130,17,2026-01-28 17:50:50,Palpitations,active
+131,6,2026-01-31 10:38:57,Frequent urination,active
+132,142,2026-01-20 17:32:27,Abdominal pain,active
+133,151,2026-02-06 08:17:41,Abdominal pain,active
+134,2,2026-01-27 02:09:55,Fever,active
+135,182,2026-02-14 14:25:53,Weight gain,active
+136,16,2026-02-02 00:44:55,Abdominal pain,active
+137,18,2026-02-01 10:37:23,Shortness of breath,active
+138,85,2026-01-19 15:54:59,Fever,active
+139,132,2026-01-24 07:06:36,Abdominal pain,active
+140,72,2026-01-15 13:17:24,Persistent cough,active
+141,125,2026-02-05 05:18:40,Dizziness,active
+142,139,2026-01-18 13:29:19,Back pain,active
+143,186,2026-01-20 12:09:05,Frequent urination,active
+144,148,2026-01-15 16:57:27,Blurred vision,active
+145,63,2026-01-19 11:34:22,Weakness,active
+146,122,2026-01-24 01:17:40,Weakness,active
+147,105,2026-02-11 22:37:24,Dizziness,active
+148,25,2026-01-27 03:21:34,Headache,active
+149,169,2026-01-17 15:24:58,Joint pain,active
+150,91,2026-01-20 03:38:00,Joint pain,active
+151,106,2026-01-25 00:21:27,Swelling in legs,active
+152,187,2026-02-12 01:01:08,Shortness of breath,active
+153,173,2026-02-03 08:35:07,Weight gain,active
+154,166,2026-01-17 02:20:57,Headache,active
+155,16,2026-02-12 13:22:20,Seizure episode,active
+156,187,2026-01-24 21:09:35,Palpitations,active
+157,28,2026-01-22 00:50:20,Abdominal pain,active
+158,50,2026-01-28 02:47:13,Dizziness,active
+159,138,2026-01-29 15:09:29,Swelling in legs,active
+160,36,2026-02-12 15:22:04,Joint pain,active
+161,47,2026-02-04 18:04:22,Vomiting,active
+162,119,2026-01-24 16:02:36,Abdominal pain,active
+163,20,2026-01-25 05:09:19,Swelling in legs,active
+164,141,2026-02-14 11:55:27,Headache,active
+165,13,2026-01-22 13:57:46,Weight gain,active
+166,139,2026-02-07 22:11:59,Loss of appetite,active
+167,4,2026-02-12 03:18:17,Fever,active
+168,193,2026-01-22 12:11:21,Abdominal pain,active
+169,43,2026-02-12 19:23:02,Joint pain,active
+170,125,2026-02-08 05:43:01,Blurred vision,active
+171,55,2026-02-06 05:17:17,Seizure episode,active
+172,16,2026-01-20 09:58:54,Fatigue,active
+173,98,2026-02-03 07:00:48,Chest pain,active
+174,100,2026-01-19 00:45:33,Vomiting,active
+175,117,2026-01-23 10:38:06,Diarrhea,active
+176,109,2026-01-22 12:11:35,Sore throat,active
+177,188,2026-01-15 22:26:17,Weakness,active
+178,143,2026-01-16 07:45:27,Persistent cough,active
+179,184,2026-02-09 18:39:11,Blurred vision,active
+180,40,2026-01-21 04:15:20,Dizziness,active
+181,76,2026-01-20 00:13:35,Dizziness,active
+182,15,2026-02-04 06:51:19,Frequent urination,active
+183,189,2026-02-12 20:22:40,Burning urination,active
+184,16,2026-01-28 08:52:03,Ear pain,active
+185,81,2026-01-28 20:12:41,Shortness of breath,active
+186,13,2026-01-25 12:19:16,Frequent urination,active
+187,123,2026-01-28 06:08:00,Skin rash,active
+188,136,2026-02-11 19:33:04,Fatigue,active
+189,15,2026-01-17 16:52:03,Skin rash,active
+190,21,2026-01-22 12:14:51,Fatigue,active
+191,18,2026-02-10 23:51:26,Weight loss,active
+192,18,2026-02-07 16:57:32,Persistent cough,active
+193,61,2026-01-20 13:28:39,Seizure episode,active
+194,31,2026-01-26 23:05:38,Frequent urination,active
+195,64,2026-02-04 07:53:34,Frequent urination,active
+196,153,2026-02-09 04:31:31,Shortness of breath,active
+197,159,2026-02-14 14:56:08,Fever,active
+198,108,2026-01-21 03:19:42,Persistent cough,active
+199,150,2026-01-17 01:48:50,Frequent urination,active
+200,134,2026-01-15 19:43:18,Palpitations,active
+201,67,2026-01-17 18:53:20,Dizziness,active
+202,172,2026-02-02 02:34:06,Sore throat,active
+203,81,2026-02-04 05:45:23,Abdominal pain,active
+204,68,2026-02-02 13:27:28,Seizure episode,active
+205,34,2026-02-08 12:22:41,Persistent cough,active
+206,166,2026-02-09 10:06:02,Diarrhea,active
+207,118,2026-01-26 10:57:18,Palpitations,active
+208,193,2026-02-10 02:05:40,Fever,active
+209,3,2026-01-31 10:47:17,Swelling in legs,active
+210,160,2026-01-17 00:23:05,Frequent urination,active
+211,26,2026-01-26 04:22:14,Fever,active
+212,138,2026-02-11 16:08:47,Dizziness,active
+213,130,2026-01-27 05:16:16,Vomiting,active
+214,34,2026-01-25 04:37:01,Loss of consciousness,active
+215,18,2026-01-18 03:14:29,Abdominal pain,active
+216,95,2026-02-14 14:59:38,Diarrhea,active
+217,41,2026-01-19 00:30:55,Swelling in legs,active
+218,140,2026-01-15 13:56:23,Sore throat,active
+219,78,2026-02-09 05:57:01,Weight loss,active
+220,168,2026-02-01 00:15:26,Skin rash,active
+221,3,2026-01-20 00:01:57,Persistent cough,active
+222,142,2026-02-02 12:57:49,Diarrhea,active
+223,170,2026-01-18 02:29:08,Headache,active
+224,35,2026-02-04 22:55:20,Vomiting,active
+225,30,2026-02-06 07:19:14,Headache,active
+226,191,2026-02-02 12:29:59,Burning urination,active
+227,40,2026-01-26 01:41:06,Vomiting,active
+228,73,2026-01-25 17:51:08,Weight loss,active
+229,54,2026-02-09 13:59:36,Sore throat,active
+230,88,2026-01-17 01:10:08,Dizziness,active
+231,176,2026-01-31 21:21:43,Weight gain,active
+232,68,2026-01-24 10:05:45,Skin rash,active
+233,126,2026-01-17 01:48:11,Vomiting,active
+234,14,2026-01-16 13:23:55,Fever,active
+235,163,2026-01-20 21:08:18,Joint pain,active
+236,71,2026-02-10 05:50:06,Shortness of breath,active
+237,1,2026-01-25 18:50:34,Palpitations,active
+238,198,2026-01-29 10:22:12,Back pain,active
+239,164,2026-01-25 10:45:13,Vomiting,active
+240,42,2026-01-30 23:08:29,Ear pain,active
+241,114,2026-02-07 20:12:52,Burning urination,active
+242,181,2026-02-14 02:20:41,Joint pain,active
+243,144,2026-02-06 21:32:37,Chest pain,active
+244,29,2026-02-14 14:35:35,Fever,active
+245,177,2026-02-03 11:05:14,Back pain,active
+246,140,2026-02-08 07:24:37,Shortness of breath,active
+247,95,2026-02-02 23:06:17,Frequent urination,active
+248,142,2026-01-17 21:27:49,Back pain,active
+249,111,2026-02-12 21:53:40,Back pain,active
+250,11,2026-02-01 02:54:27,Diarrhea,active
+251,94,2026-02-07 13:55:31,Weakness,active
+252,11,2026-02-04 23:39:02,Loss of consciousness,active
+253,54,2026-01-16 18:14:35,Persistent cough,active
+254,64,2026-01-19 03:44:42,Persistent cough,active
+255,27,2026-02-12 22:22:11,Loss of consciousness,active
+256,200,2026-01-26 13:43:39,Burning urination,active
+257,105,2026-01-23 19:08:24,Weight loss,active
+258,192,2026-01-26 20:05:53,Back pain,active
+259,61,2026-02-05 11:25:29,Fatigue,active
+260,46,2026-01-22 22:01:00,Joint pain,active
+261,7,2026-02-03 00:57:26,Fatigue,active
+262,189,2026-02-04 12:21:11,Palpitations,active
+263,106,2026-02-05 16:12:52,Weakness,active
+264,172,2026-02-03 18:16:54,Ear pain,active
+265,64,2026-01-24 16:14:09,Vomiting,active
+266,41,2026-01-20 04:58:56,Weakness,active
+267,180,2026-01-19 18:10:40,Headache,active
+268,98,2026-01-24 21:07:44,Shortness of breath,active
+269,121,2026-01-22 02:49:20,Abdominal pain,active
+270,52,2026-02-02 14:19:36,Loss of appetite,active
+271,118,2026-01-15 20:25:26,Loss of consciousness,active
+272,79,2026-01-31 06:35:14,Loss of appetite,active
+273,59,2026-02-05 09:11:22,Abdominal pain,active
+274,7,2026-02-02 05:34:41,Persistent cough,active
+275,50,2026-01-18 07:28:49,Seizure episode,active
+276,85,2026-01-18 09:45:53,Vomiting,active
+277,18,2026-02-02 15:52:22,Numbness in limbs,active
+278,72,2026-01-24 03:39:39,Loss of consciousness,active
+279,165,2026-02-05 10:37:13,Skin rash,active
+280,103,2026-01-16 04:18:56,Persistent cough,active
+281,138,2026-02-01 01:04:29,Palpitations,active
+282,8,2026-01-22 18:08:20,Headache,active
+283,67,2026-01-16 20:09:07,Fatigue,active
+284,149,2026-01-24 23:21:21,Vomiting,active
+285,10,2026-01-23 19:11:50,Headache,active
+286,153,2026-01-20 17:06:33,Joint pain,active
+287,89,2026-01-18 19:26:55,Ear pain,active
+288,81,2026-01-24 16:33:07,Joint pain,active
+289,156,2026-01-22 04:44:29,Skin rash,active
+290,30,2026-02-09 01:53:39,Seizure episode,active
+291,148,2026-01-25 10:52:00,Dizziness,active
+292,66,2026-02-12 22:20:54,Shortness of breath,active
+293,182,2026-02-12 13:57:26,Joint pain,active
+294,1,2026-02-01 18:08:17,Skin rash,active
+295,138,2026-01-27 07:39:07,Persistent cough,active
+296,185,2026-01-24 20:43:51,Ear pain,active
+297,189,2026-02-03 14:53:11,Persistent cough,active
+298,51,2026-01-18 07:21:33,Loss of consciousness,active
+299,111,2026-02-04 22:17:49,Fever,active
+300,171,2026-01-27 05:26:13,Palpitations,active
+301,160,2026-01-22 04:18:25,Palpitations,active
+302,170,2026-01-29 21:38:34,Headache,active
+303,185,2026-02-05 11:01:24,Diarrhea,active
+304,130,2026-01-29 15:21:17,Diarrhea,active
+305,171,2026-01-21 22:29:30,Joint pain,active
+306,84,2026-01-16 12:10:40,Seizure episode,active
+307,179,2026-01-17 21:02:50,Diarrhea,active
+308,142,2026-01-19 14:41:13,Back pain,active
+309,50,2026-02-14 07:45:22,Joint pain,active
+310,171,2026-01-16 07:13:16,Seizure episode,active
+311,174,2026-01-17 06:54:24,Ear pain,active
+312,45,2026-02-04 22:18:07,Weight loss,active
+313,146,2026-02-11 02:06:42,Diarrhea,active
+314,104,2026-01-26 04:14:09,Burning urination,active
+315,1,2026-02-12 16:00:29,Diarrhea,active
+316,74,2026-02-08 03:46:34,Dizziness,active
+317,111,2026-01-27 01:29:38,Weakness,active
+318,149,2026-01-15 14:25:33,Weight loss,active
+319,168,2026-01-24 18:45:16,Palpitations,active
+320,120,2026-02-05 09:42:08,Swelling in legs,active
+321,114,2026-02-11 06:10:31,Persistent cough,active
+322,55,2026-01-16 10:22:40,Skin rash,active
+323,122,2026-02-10 22:19:53,Weakness,active
+324,189,2026-01-24 19:46:22,Fatigue,active
+325,169,2026-02-04 22:03:20,Fever,active
+326,73,2026-01-23 08:00:02,Skin rash,active
+327,170,2026-01-27 08:35:47,Weight gain,active
+328,159,2026-02-13 20:15:16,Palpitations,active
+329,24,2026-02-07 08:38:45,Loss of appetite,active
+330,193,2026-01-24 10:56:04,Abdominal pain,active
+331,173,2026-01-28 23:45:34,Diarrhea,active
+332,58,2026-02-01 03:44:24,Weakness,active
+333,51,2026-02-03 14:08:52,Back pain,active
+334,7,2026-01-26 14:15:50,Shortness of breath,active
+335,63,2026-02-10 19:41:59,Blurred vision,active
+336,157,2026-02-08 10:42:11,Numbness in limbs,active
+337,19,2026-01-20 11:10:11,Swelling in legs,active
+338,107,2026-01-29 15:02:10,Weight gain,active
+339,148,2026-01-31 09:47:46,Dizziness,active
+340,184,2026-01-29 19:06:08,Sore throat,active
+341,99,2026-01-28 23:36:50,Blurred vision,active
+342,103,2026-01-24 15:24:16,Abdominal pain,active
+343,38,2026-01-26 09:55:19,Weight gain,active
+344,177,2026-02-09 12:14:24,Chest pain,active
+345,193,2026-02-09 16:46:16,Numbness in limbs,active
+346,28,2026-01-20 13:31:07,Numbness in limbs,active
+347,109,2026-02-01 19:54:22,Abdominal pain,active
+348,46,2026-01-25 16:38:48,Weakness,active
+349,179,2026-01-18 10:14:05,Skin rash,active
+350,119,2026-01-15 21:22:27,Shortness of breath,active
+351,143,2026-01-28 17:18:46,Abdominal pain,active
+352,32,2026-02-10 02:01:20,Swelling in legs,active
+353,35,2026-02-13 11:01:27,Weakness,active
+354,119,2026-02-04 13:06:51,Persistent cough,active
+355,136,2026-01-17 03:58:46,Burning urination,active
+356,153,2026-02-01 02:54:50,Palpitations,active
+357,194,2026-01-28 04:53:14,Swelling in legs,active
+358,157,2026-01-24 22:01:11,Loss of appetite,active
+359,185,2026-02-11 22:10:16,Skin rash,active
+360,110,2026-02-06 19:59:57,Loss of appetite,active
+361,141,2026-01-28 15:26:09,Swelling in legs,active
+362,41,2026-01-31 13:04:02,Ear pain,active
+363,122,2026-01-21 22:43:28,Swelling in legs,active
+364,67,2026-02-07 22:59:16,Numbness in limbs,active
+365,64,2026-01-25 19:15:22,Loss of appetite,active
+366,164,2026-02-01 08:20:10,Vomiting,active
+367,197,2026-02-04 07:28:51,Numbness in limbs,active
+368,134,2026-02-11 10:23:06,Blurred vision,active
+369,161,2026-01-16 12:33:16,Abdominal pain,active
+370,71,2026-02-09 09:59:27,Swelling in legs,active
+371,20,2026-02-08 16:00:19,Sore throat,active
+372,74,2026-01-17 02:14:02,Abdominal pain,active
+373,70,2026-02-05 21:46:28,Palpitations,active
+374,82,2026-02-10 00:32:55,Burning urination,active
+375,21,2026-02-06 16:25:04,Back pain,active
+376,39,2026-01-27 19:21:52,Abdominal pain,active
+377,99,2026-01-24 11:10:11,Sore throat,active
+378,40,2026-01-21 23:57:32,Sore throat,active
+379,55,2026-02-01 08:15:24,Fever,active
+380,107,2026-01-24 00:48:23,Joint pain,active
+381,85,2026-02-02 15:40:43,Burning urination,active
+382,120,2026-02-10 07:54:49,Joint pain,active
+383,16,2026-01-17 16:45:16,Dizziness,active
+384,108,2026-02-02 11:50:02,Seizure episode,active
+385,198,2026-02-10 04:25:01,Frequent urination,active
+386,179,2026-01-23 08:48:58,Chest pain,active
+387,196,2026-02-08 19:36:22,Frequent urination,active
+388,98,2026-02-11 05:24:09,Blurred vision,active
+389,2,2026-01-20 06:10:32,Loss of consciousness,active
+390,77,2026-02-03 10:22:00,Numbness in limbs,active
+391,100,2026-01-21 21:19:11,Loss of appetite,active
+392,108,2026-01-30 10:01:01,Burning urination,active
+393,192,2026-02-09 03:50:49,Ear pain,active
+394,140,2026-01-29 09:08:35,Weakness,active
+395,155,2026-02-14 02:38:41,Abdominal pain,active
+396,125,2026-02-09 00:23:53,Abdominal pain,active
+397,70,2026-02-03 01:31:42,Joint pain,active
+398,125,2026-02-09 02:18:59,Chest pain,active
+399,100,2026-01-26 20:13:43,Palpitations,active
+400,172,2026-01-18 10:27:28,Persistent cough,active
+401,104,2026-02-01 21:53:19,Ear pain,active
+402,43,2026-02-06 18:20:21,Loss of appetite,active
+403,120,2026-02-02 11:29:22,Back pain,active
+404,160,2026-01-16 20:12:13,Burning urination,active
+405,7,2026-01-18 10:14:43,Seizure episode,active
+406,152,2026-02-10 11:02:42,Frequent urination,active
+407,170,2026-01-20 17:35:34,Chest pain,active
+408,22,2026-02-11 02:29:45,Weight gain,active
+409,110,2026-01-24 20:01:51,Back pain,active
+410,119,2026-01-16 03:27:39,Fatigue,active
+411,13,2026-02-10 22:11:47,Vomiting,active
+412,98,2026-02-10 13:55:48,Palpitations,active
+413,55,2026-01-27 09:50:07,Swelling in legs,active
+414,84,2026-01-31 03:08:14,Palpitations,active
+415,195,2026-01-17 02:35:34,Seizure episode,active
+416,72,2026-01-22 19:30:23,Numbness in limbs,active
+417,108,2026-02-11 23:19:53,Vomiting,active
+418,21,2026-01-19 17:31:09,Blurred vision,active
+419,5,2026-01-31 12:11:02,Ear pain,active
+420,139,2026-01-19 20:03:49,Shortness of breath,active
+421,90,2026-01-22 04:35:02,Abdominal pain,active
+422,167,2026-02-05 13:36:19,Fever,active
+423,200,2026-02-06 03:58:59,Weight gain,active
+424,11,2026-01-16 01:27:00,Numbness in limbs,active
+425,8,2026-01-31 23:01:46,Abdominal pain,active
+426,52,2026-01-25 04:53:07,Loss of appetite,active
+427,6,2026-01-24 19:16:52,Weight loss,active
+428,40,2026-02-03 22:29:38,Abdominal pain,active
+429,33,2026-01-17 15:09:05,Blurred vision,active
+430,172,2026-01-17 20:04:41,Headache,active
+431,145,2026-01-23 05:30:04,Dizziness,active
+432,120,2026-02-14 01:15:14,Sore throat,active
+433,66,2026-01-22 20:48:27,Numbness in limbs,active
+434,95,2026-02-14 04:53:43,Fatigue,active
+435,156,2026-02-06 02:11:17,Weight loss,active
+436,192,2026-01-22 08:05:08,Sore throat,active
+437,30,2026-01-31 07:44:38,Numbness in limbs,active
+438,42,2026-01-27 05:17:47,Diarrhea,active
+439,28,2026-01-25 02:24:49,Frequent urination,active
+440,7,2026-01-25 18:00:05,Diarrhea,active
+441,148,2026-02-06 12:18:42,Persistent cough,active
+442,97,2026-02-02 05:57:57,Seizure episode,active
+443,184,2026-01-31 09:06:22,Dizziness,active
+444,20,2026-01-23 00:44:54,Frequent urination,active
+445,177,2026-02-06 02:51:17,Loss of appetite,active
+446,161,2026-01-28 02:26:29,Abdominal pain,active
+447,27,2026-02-01 06:34:41,Sore throat,active
+448,198,2026-01-27 13:51:40,Diarrhea,active
+449,176,2026-01-25 16:16:58,Weight loss,active
+450,31,2026-01-16 16:05:25,Weakness,active
+451,145,2026-01-31 21:01:24,Weakness,active
+452,11,2026-01-23 01:16:53,Loss of consciousness,active
+453,137,2026-02-02 14:03:22,Joint pain,active
+454,170,2026-01-24 10:30:05,Loss of consciousness,active
+455,18,2026-01-16 17:16:45,Skin rash,active
+456,166,2026-02-10 11:43:48,Palpitations,active
+457,4,2026-02-05 18:21:00,Joint pain,active
+458,126,2026-02-10 05:12:50,Headache,active
+459,111,2026-02-10 06:20:10,Loss of consciousness,active
+460,163,2026-02-14 05:00:40,Loss of appetite,active
+461,118,2026-01-29 02:22:29,Sore throat,active
+462,40,2026-01-16 00:24:39,Joint pain,active
+463,46,2026-01-19 04:02:33,Ear pain,active
+464,134,2026-01-20 11:45:25,Weight gain,active
+465,70,2026-01-15 09:53:13,Weight loss,active
+466,138,2026-01-31 18:41:33,Numbness in limbs,active
+467,124,2026-01-15 17:28:31,Swelling in legs,active
+468,112,2026-02-12 19:50:06,Loss of appetite,active
+469,188,2026-01-28 00:19:09,Frequent urination,active
+470,69,2026-01-21 17:58:14,Palpitations,active
+471,63,2026-01-18 01:58:49,Loss of appetite,active
+472,23,2026-01-29 12:10:09,Vomiting,active
+473,116,2026-02-03 10:46:32,Abdominal pain,active
+474,193,2026-02-11 00:11:29,Swelling in legs,active
+475,146,2026-01-23 18:35:32,Weight loss,active
+476,172,2026-01-23 06:30:41,Seizure episode,active
+477,87,2026-02-07 08:51:48,Chest pain,active
+478,127,2026-01-17 22:27:27,Palpitations,active
+479,47,2026-01-17 18:03:44,Blurred vision,active
+480,55,2026-01-21 11:07:47,Loss of consciousness,active
+481,67,2026-01-27 11:28:57,Palpitations,active
+482,72,2026-02-08 13:14:39,Weight loss,active
+483,180,2026-01-17 15:57:13,Vomiting,active
+484,143,2026-02-03 19:04:17,Chest pain,active
+485,133,2026-01-29 14:52:44,Dizziness,active
+486,22,2026-02-06 16:59:55,Abdominal pain,active
+487,185,2026-02-10 16:42:08,Joint pain,active
+488,126,2026-02-11 22:20:39,Burning urination,active
+489,195,2026-01-22 21:01:36,Abdominal pain,active
+490,177,2026-01-23 13:01:12,Blurred vision,active
+491,166,2026-02-08 02:37:51,Sore throat,active
+492,126,2026-02-08 23:49:07,Swelling in legs,active
+493,5,2026-01-26 21:57:18,Fever,active
+494,76,2026-02-12 03:52:23,Abdominal pain,active
+495,104,2026-02-10 22:32:44,Sore throat,active
+496,63,2026-01-29 02:27:14,Diarrhea,active
+497,170,2026-02-09 02:19:04,Frequent urination,active
+498,95,2026-01-22 01:07:17,Blurred vision,active
+499,142,2026-02-09 02:40:11,Skin rash,active
+500,89,2026-02-14 14:54:54,Joint pain,active

@@ -1,0 +1,1756 @@
+symptom_id,visit_id,symptom_name,severity_score,duration
+1,1,Neck pain,5,2 days
+2,1,Loss of appetite,4,2 days
+3,2,Dizziness,3,1 hour
+4,2,Seizures,3,1 hour
+5,2,Headache,5,1 hour
+6,2,Tingling sensation,4,1 day
+7,2,Chest pain,1,1 day
+8,3,Numbness,3,2 days
+9,3,Weight loss,1,2 days
+10,3,Tingling sensation,3,6 hours
+11,4,Loss of consciousness,2,6 hours
+12,4,Chest pain,3,2 days
+13,4,Excessive sweating,1,1 hour
+14,4,Hoarseness,2,1 hour
+15,4,Sore throat,3,1 day
+16,5,Itching,1,1 hour
+17,5,Weight loss,3,6 hours
+18,5,Swelling in legs,2,3 hours
+19,6,Night sweats,4,3 hours
+20,6,Fever,3,2 days
+21,6,Itching,2,3 hours
+22,7,Loss of appetite,3,1 hour
+23,7,Neck pain,2,1 day
+24,7,Persistent cough,4,1 day
+25,8,Frequent urination,3,1 hour
+26,8,Tingling sensation,2,2 days
+27,9,Fever,5,2 days
+28,9,Itching,2,3 hours
+29,10,Nausea,1,1 hour
+30,10,Excessive sweating,2,1 day
+31,10,Joint pain,2,1 day
+32,11,Numbness,4,2 days
+33,11,Hoarseness,1,1 hour
+34,11,Seizures,3,1 day
+35,11,Frequent urination,4,1 day
+36,12,Shortness of breath,5,1 hour
+37,12,Fatigue,2,2 days
+38,12,Hoarseness,4,1 hour
+39,12,Burning urination,4,3 hours
+40,12,Joint pain,2,1 hour
+41,13,Diarrhea,4,1 hour
+42,13,Diarrhea,4,3 hours
+43,14,Chills,4,2 days
+44,14,Hoarseness,1,2 days
+45,14,Back stiffness,3,6 hours
+46,14,Numbness,2,3 hours
+47,15,Chest pain,5,2 days
+48,15,Loss of appetite,1,1 day
+49,16,Wheezing,2,1 hour
+50,16,Wheezing,2,1 hour
+51,16,Weight loss,4,1 day
+52,16,Shortness of breath,5,2 days
+53,17,Nausea,4,6 hours
+54,17,Persistent cough,4,3 hours
+55,17,Swelling in legs,2,2 days
+56,17,Weight gain,1,6 hours
+57,18,Persistent cough,4,1 day
+58,18,Nausea,1,3 hours
+59,18,Chills,3,1 hour
+60,18,Diarrhea,1,3 hours
+61,19,Wheezing,2,2 days
+62,19,Ear pain,4,1 hour
+63,19,Joint pain,2,2 days
+64,19,Blurred vision,1,6 hours
+65,20,Sore throat,1,3 hours
+66,20,Muscle weakness,5,3 hours
+67,20,Double vision,2,2 days
+68,21,Excessive sweating,3,3 hours
+69,21,Hoarseness,4,6 hours
+70,22,Cough,4,3 hours
+71,22,Swelling in legs,4,2 days
+72,22,Abdominal pain,2,1 day
+73,23,Nausea,1,3 hours
+74,23,Headache,5,1 day
+75,23,Double vision,3,1 hour
+76,24,Shortness of breath,2,6 hours
+77,24,Shortness of breath,1,1 day
+78,24,Seizures,2,1 hour
+79,24,Headache,3,2 days
+80,24,Seizures,3,1 day
+81,25,Fever,4,1 hour
+82,25,Muscle weakness,5,3 hours
+83,26,Numbness,5,2 days
+84,26,Weight loss,5,1 day
+85,26,Joint pain,1,3 hours
+86,26,Weight gain,3,1 hour
+87,26,Ear pain,3,1 hour
+88,27,Sore throat,3,6 hours
+89,27,Excessive sweating,5,1 hour
+90,28,Back stiffness,5,1 hour
+91,28,Cough,1,1 day
+92,28,Loss of consciousness,1,1 day
+93,29,Tingling sensation,4,3 hours
+94,29,Joint pain,3,2 days
+95,29,Hoarseness,5,3 hours
+96,29,Back stiffness,5,3 hours
+97,30,Neck pain,1,1 day
+98,30,Wheezing,1,1 hour
+99,30,Joint pain,3,2 days
+100,30,Tingling sensation,2,1 day
+101,30,Double vision,4,3 hours
+102,31,Neck pain,5,3 hours
+103,31,Itching,2,1 day
+104,31,Blurred vision,4,1 day
+105,31,Back stiffness,4,3 hours
+106,31,Night sweats,4,1 day
+107,32,Weight loss,1,1 day
+108,32,Sore throat,2,1 hour
+109,32,Chest pain,2,6 hours
+110,32,Burning urination,1,3 hours
+111,33,Numbness,1,6 hours
+112,33,Blurred vision,4,1 hour
+113,33,Vomiting,3,6 hours
+114,33,Weight loss,1,2 days
+115,33,Fever,2,6 hours
+116,34,Fatigue,2,6 hours
+117,34,Weight loss,2,1 day
+118,34,Chest tightness,5,3 hours
+119,34,Frequent urination,5,2 days
+120,34,Headache,5,2 days
+121,35,Night sweats,2,2 days
+122,35,Nausea,2,2 days
+123,35,Chest tightness,1,6 hours
+124,35,Tingling sensation,2,1 day
+125,35,Excessive sweating,3,1 day
+126,36,Burning urination,3,3 hours
+127,36,Ear pain,3,1 hour
+128,37,Double vision,2,6 hours
+129,37,Chills,1,2 days
+130,37,Hoarseness,2,1 day
+131,38,Tingling sensation,5,2 days
+132,38,Back stiffness,5,1 day
+133,38,Headache,3,3 hours
+134,39,Wheezing,5,3 hours
+135,39,Dizziness,5,3 hours
+136,39,Abdominal pain,1,2 days
+137,39,Weight gain,1,6 hours
+138,39,Frequent urination,2,1 day
+139,40,Neck pain,1,1 hour
+140,40,Wheezing,4,2 days
+141,40,Palpitations,5,2 days
+142,41,Frequent urination,5,1 day
+143,41,Ear pain,3,1 hour
+144,41,Night sweats,5,1 day
+145,42,Fever,5,6 hours
+146,42,Double vision,3,3 hours
+147,42,Seizures,5,3 hours
+148,43,Ear pain,2,1 hour
+149,43,Swelling in legs,2,6 hours
+150,43,Cough,5,1 day
+151,43,Abdominal pain,2,3 hours
+152,43,Palpitations,3,3 hours
+153,44,Chest pain,1,2 days
+154,44,Itching,1,1 day
+155,44,Swelling in legs,3,2 days
+156,45,Abdominal pain,5,6 hours
+157,45,Palpitations,5,1 hour
+158,45,Swelling in legs,2,1 day
+159,45,Weight loss,2,6 hours
+160,45,Weight gain,3,1 hour
+161,46,Shortness of breath,2,1 hour
+162,46,Wheezing,4,3 hours
+163,46,Frequent urination,5,3 hours
+164,46,Numbness,5,1 day
+165,47,Cough,4,2 days
+166,47,Numbness,3,1 hour
+167,47,Diarrhea,3,2 days
+168,47,Fever,4,3 hours
+169,47,Vomiting,1,3 hours
+170,48,Double vision,2,1 hour
+171,48,Chest tightness,5,3 hours
+172,49,Wheezing,5,6 hours
+173,49,Shortness of breath,5,2 days
+174,49,Swelling in legs,4,3 hours
+175,49,Loss of consciousness,4,6 hours
+176,49,Abdominal pain,5,1 day
+177,50,Chills,1,2 days
+178,50,Abdominal pain,2,3 hours
+179,50,Dizziness,5,1 hour
+180,50,Joint pain,5,2 days
+181,50,Fatigue,4,1 day
+182,51,Joint pain,5,2 days
+183,51,Excessive sweating,1,1 day
+184,51,Numbness,1,2 days
+185,51,Wheezing,3,1 hour
+186,51,Burning urination,2,1 hour
+187,52,Chest pain,4,1 day
+188,52,Numbness,3,6 hours
+189,52,Nausea,2,2 days
+190,52,Loss of appetite,4,2 days
+191,53,Headache,2,2 days
+192,53,Neck pain,5,1 day
+193,53,Wheezing,2,6 hours
+194,54,Nausea,5,6 hours
+195,54,Ear pain,5,1 day
+196,54,Sore throat,5,6 hours
+197,54,Tingling sensation,1,2 days
+198,54,Seizures,4,3 hours
+199,55,Palpitations,1,6 hours
+200,55,Seizures,1,1 day
+201,55,Night sweats,5,2 days
+202,56,Ear pain,1,1 hour
+203,56,Diarrhea,2,6 hours
+204,57,Swelling in legs,1,1 day
+205,57,Vomiting,3,1 hour
+206,57,Wheezing,4,6 hours
+207,57,Double vision,2,6 hours
+208,58,Sore throat,1,2 days
+209,58,Skin rash,5,3 hours
+210,58,Sore throat,1,1 hour
+211,59,Dizziness,5,6 hours
+212,59,Itching,2,3 hours
+213,59,Muscle weakness,2,2 days
+214,60,Loss of consciousness,4,1 hour
+215,60,Abdominal pain,5,2 days
+216,60,Ear pain,2,6 hours
+217,60,Fatigue,1,2 days
+218,60,Nausea,2,2 days
+219,61,Chills,2,3 hours
+220,61,Chest pain,2,6 hours
+221,61,Dizziness,5,2 days
+222,62,Sore throat,1,1 hour
+223,62,Fatigue,2,3 hours
+224,62,Dizziness,5,1 hour
+225,63,Chills,2,6 hours
+226,63,Dizziness,3,1 day
+227,63,Shortness of breath,1,1 hour
+228,64,Excessive sweating,3,1 day
+229,64,Numbness,2,6 hours
+230,64,Numbness,2,3 hours
+231,65,Hoarseness,5,6 hours
+232,65,Vomiting,5,2 days
+233,65,Night sweats,2,2 days
+234,65,Skin rash,2,1 hour
+235,66,Chills,2,1 hour
+236,66,Sore throat,1,3 hours
+237,66,Persistent cough,5,1 day
+238,66,Blurred vision,1,1 hour
+239,67,Seizures,4,1 hour
+240,67,Nausea,5,1 hour
+241,67,Chest tightness,2,2 days
+242,68,Seizures,2,2 days
+243,68,Burning urination,2,1 hour
+244,69,Shortness of breath,2,2 days
+245,69,Excessive sweating,1,2 days
+246,69,Fatigue,2,6 hours
+247,69,Wheezing,5,2 days
+248,70,Hoarseness,1,1 hour
+249,70,Burning urination,2,3 hours
+250,70,Double vision,1,2 days
+251,70,Neck pain,4,1 hour
+252,70,Itching,1,1 day
+253,71,Weight loss,4,2 days
+254,71,Frequent urination,4,2 days
+255,71,Tingling sensation,3,1 day
+256,71,Fever,1,6 hours
+257,71,Skin rash,3,3 hours
+258,72,Double vision,5,1 hour
+259,72,Diarrhea,4,1 hour
+260,72,Wheezing,1,2 days
+261,72,Headache,2,1 hour
+262,72,Chills,3,3 hours
+263,73,Weight loss,2,1 hour
+264,73,Blurred vision,4,1 day
+265,73,Fever,3,1 day
+266,73,Weight loss,5,1 day
+267,74,Burning urination,1,1 hour
+268,74,Fever,5,6 hours
+269,74,Fever,2,1 hour
+270,74,Headache,4,3 hours
+271,74,Nausea,2,1 day
+272,75,Hoarseness,5,1 day
+273,75,Fever,3,1 hour
+274,75,Double vision,3,6 hours
+275,75,Loss of appetite,1,1 day
+276,75,Muscle weakness,4,1 hour
+277,76,Ear pain,4,6 hours
+278,76,Swelling in legs,4,2 days
+279,76,Chest tightness,4,1 day
+280,76,Persistent cough,2,6 hours
+281,76,Fatigue,1,1 day
+282,77,Shortness of breath,1,1 hour
+283,77,Wheezing,1,2 days
+284,77,Shortness of breath,3,3 hours
+285,77,Double vision,5,1 day
+286,77,Ear pain,5,1 day
+287,78,Seizures,1,1 day
+288,78,Joint pain,5,1 day
+289,78,Back stiffness,3,3 hours
+290,78,Back stiffness,4,2 days
+291,79,Shortness of breath,1,1 hour
+292,79,Sore throat,2,3 hours
+293,79,Joint pain,3,3 hours
+294,79,Tingling sensation,4,3 hours
+295,79,Chest tightness,2,2 days
+296,80,Abdominal pain,4,2 days
+297,80,Frequent urination,5,1 day
+298,80,Wheezing,5,6 hours
+299,80,Itching,5,2 days
+300,80,Vomiting,3,6 hours
+301,81,Fatigue,1,1 day
+302,81,Chills,3,2 days
+303,81,Shortness of breath,4,2 days
+304,81,Burning urination,5,2 days
+305,81,Weight loss,3,2 days
+306,82,Burning urination,1,3 hours
+307,82,Fever,3,6 hours
+308,82,Loss of appetite,1,6 hours
+309,82,Back stiffness,2,2 days
+310,82,Double vision,5,1 hour
+311,83,Skin rash,2,3 hours
+312,83,Skin rash,1,6 hours
+313,84,Fatigue,1,6 hours
+314,84,Vomiting,3,6 hours
+315,84,Joint pain,5,3 hours
+316,85,Chest tightness,4,1 day
+317,85,Neck pain,4,3 hours
+318,85,Chills,3,3 hours
+319,86,Abdominal pain,3,2 days
+320,86,Diarrhea,1,3 hours
+321,86,Loss of consciousness,1,1 hour
+322,86,Tingling sensation,4,1 day
+323,86,Muscle weakness,3,1 hour
+324,87,Skin rash,4,3 hours
+325,87,Loss of appetite,3,1 hour
+326,88,Dizziness,3,1 hour
+327,88,Nausea,1,1 hour
+328,88,Hoarseness,2,6 hours
+329,88,Excessive sweating,1,3 hours
+330,89,Weight loss,1,6 hours
+331,89,Nausea,3,3 hours
+332,90,Dizziness,3,6 hours
+333,90,Excessive sweating,4,6 hours
+334,90,Weight loss,5,1 hour
+335,90,Skin rash,4,2 days
+336,90,Blurred vision,4,3 hours
+337,91,Joint pain,3,1 hour
+338,91,Weight gain,3,2 days
+339,91,Double vision,5,1 day
+340,92,Excessive sweating,4,1 day
+341,92,Diarrhea,4,2 days
+342,92,Neck pain,1,1 hour
+343,92,Burning urination,3,2 days
+344,93,Joint pain,4,3 hours
+345,93,Weight gain,3,2 days
+346,94,Excessive sweating,3,2 days
+347,94,Double vision,1,1 hour
+348,94,Weight gain,4,1 day
+349,94,Night sweats,5,1 hour
+350,94,Weight gain,3,1 hour
+351,95,Excessive sweating,1,3 hours
+352,95,Persistent cough,1,1 hour
+353,95,Shortness of breath,2,6 hours
+354,96,Chest tightness,4,1 hour
+355,96,Skin rash,3,2 days
+356,96,Blurred vision,2,1 day
+357,96,Swelling in legs,1,6 hours
+358,96,Excessive sweating,3,6 hours
+359,97,Fatigue,4,1 hour
+360,97,Fever,4,3 hours
+361,98,Double vision,4,3 hours
+362,98,Frequent urination,4,1 hour
+363,98,Fatigue,4,1 day
+364,99,Skin rash,4,1 day
+365,99,Skin rash,5,1 day
+366,100,Joint pain,4,3 hours
+367,100,Ear pain,4,1 hour
+368,100,Swelling in legs,2,2 days
+369,100,Loss of appetite,5,1 day
+370,100,Vomiting,1,3 hours
+371,101,Palpitations,3,1 day
+372,101,Muscle weakness,4,3 hours
+373,101,Chest tightness,3,1 hour
+374,101,Shortness of breath,5,1 hour
+375,101,Nausea,5,1 hour
+376,102,Wheezing,5,3 hours
+377,102,Headache,5,1 hour
+378,103,Weight gain,1,2 days
+379,103,Shortness of breath,3,6 hours
+380,104,Loss of consciousness,5,3 hours
+381,104,Diarrhea,4,1 day
+382,104,Joint pain,4,1 hour
+383,104,Swelling in legs,1,2 days
+384,104,Blurred vision,3,6 hours
+385,105,Chest pain,5,1 day
+386,105,Nausea,3,1 hour
+387,105,Headache,5,2 days
+388,106,Neck pain,4,1 hour
+389,106,Hoarseness,2,1 hour
+390,106,Weight loss,2,3 hours
+391,106,Palpitations,4,6 hours
+392,107,Numbness,3,2 days
+393,107,Muscle weakness,4,1 day
+394,107,Ear pain,2,2 days
+395,108,Dizziness,1,6 hours
+396,108,Swelling in legs,1,1 hour
+397,108,Joint pain,4,1 day
+398,108,Hoarseness,4,1 day
+399,108,Neck pain,1,3 hours
+400,109,Palpitations,5,1 hour
+401,109,Vomiting,5,6 hours
+402,110,Back stiffness,2,3 hours
+403,110,Night sweats,1,1 day
+404,111,Frequent urination,1,1 hour
+405,111,Weight loss,5,1 day
+406,111,Nausea,3,3 hours
+407,112,Chest pain,3,1 day
+408,112,Numbness,1,6 hours
+409,113,Weight loss,3,6 hours
+410,113,Itching,3,3 hours
+411,114,Cough,1,2 days
+412,114,Joint pain,5,1 hour
+413,114,Weight loss,2,2 days
+414,114,Hoarseness,5,1 hour
+415,115,Chills,3,3 hours
+416,115,Loss of appetite,4,3 hours
+417,115,Weight loss,2,6 hours
+418,116,Joint pain,5,3 hours
+419,116,Wheezing,5,3 hours
+420,117,Burning urination,5,2 days
+421,117,Ear pain,4,2 days
+422,118,Itching,5,1 day
+423,118,Tingling sensation,2,1 hour
+424,118,Night sweats,5,2 days
+425,118,Double vision,1,3 hours
+426,119,Wheezing,5,6 hours
+427,119,Nausea,2,1 hour
+428,119,Hoarseness,5,6 hours
+429,119,Numbness,2,2 days
+430,119,Night sweats,2,1 hour
+431,120,Nausea,2,2 days
+432,120,Fatigue,4,6 hours
+433,120,Double vision,4,2 days
+434,120,Vomiting,5,2 days
+435,120,Chills,3,3 hours
+436,121,Chest pain,4,2 days
+437,121,Back stiffness,1,1 hour
+438,121,Seizures,3,6 hours
+439,122,Dizziness,2,6 hours
+440,122,Headache,5,1 hour
+441,122,Palpitations,2,2 days
+442,123,Vomiting,5,6 hours
+443,123,Chills,1,1 hour
+444,123,Muscle weakness,3,6 hours
+445,123,Hoarseness,1,1 hour
+446,124,Frequent urination,1,3 hours
+447,124,Back stiffness,4,6 hours
+448,124,Nausea,3,3 hours
+449,124,Sore throat,5,1 hour
+450,125,Weight gain,5,2 days
+451,125,Burning urination,3,6 hours
+452,126,Persistent cough,4,6 hours
+453,126,Weight loss,5,2 days
+454,127,Hoarseness,1,3 hours
+455,127,Fever,5,1 day
+456,127,Palpitations,4,2 days
+457,127,Tingling sensation,5,6 hours
+458,128,Tingling sensation,5,2 days
+459,128,Palpitations,3,2 days
+460,128,Chills,3,1 hour
+461,128,Excessive sweating,1,1 hour
+462,128,Fever,2,1 hour
+463,129,Wheezing,1,3 hours
+464,129,Tingling sensation,2,6 hours
+465,129,Burning urination,2,1 hour
+466,130,Skin rash,2,3 hours
+467,130,Neck pain,5,1 hour
+468,131,Fever,4,1 day
+469,131,Hoarseness,3,6 hours
+470,132,Double vision,3,1 hour
+471,132,Dizziness,5,2 days
+472,132,Sore throat,3,2 days
+473,132,Swelling in legs,5,1 day
+474,132,Tingling sensation,5,1 hour
+475,133,Diarrhea,4,1 day
+476,133,Back stiffness,4,2 days
+477,133,Neck pain,2,1 hour
+478,134,Weight loss,2,1 day
+479,134,Double vision,2,6 hours
+480,134,Vomiting,3,1 day
+481,135,Ear pain,4,6 hours
+482,135,Itching,4,1 hour
+483,136,Frequent urination,4,2 days
+484,136,Chills,5,3 hours
+485,137,Abdominal pain,2,1 day
+486,137,Hoarseness,3,3 hours
+487,137,Burning urination,5,3 hours
+488,137,Weight gain,5,3 hours
+489,137,Hoarseness,4,1 hour
+490,138,Neck pain,4,1 day
+491,138,Frequent urination,3,3 hours
+492,138,Fatigue,5,1 day
+493,139,Diarrhea,3,6 hours
+494,139,Hoarseness,4,1 hour
+495,139,Excessive sweating,2,2 days
+496,140,Swelling in legs,4,1 hour
+497,140,Ear pain,2,1 hour
+498,140,Numbness,1,3 hours
+499,140,Back stiffness,4,2 days
+500,141,Frequent urination,2,3 hours
+501,141,Dizziness,2,3 hours
+502,142,Weight gain,3,3 hours
+503,142,Burning urination,1,6 hours
+504,142,Tingling sensation,1,3 hours
+505,142,Palpitations,1,1 hour
+506,143,Blurred vision,5,1 day
+507,143,Itching,1,1 day
+508,143,Itching,3,6 hours
+509,144,Sore throat,2,6 hours
+510,144,Persistent cough,1,2 days
+511,145,Chills,4,3 hours
+512,145,Hoarseness,1,1 day
+513,145,Skin rash,3,2 days
+514,145,Dizziness,1,1 hour
+515,145,Hoarseness,1,1 hour
+516,146,Muscle weakness,5,2 days
+517,146,Muscle weakness,2,6 hours
+518,146,Chest tightness,2,1 hour
+519,147,Back stiffness,4,3 hours
+520,147,Headache,2,1 day
+521,148,Wheezing,5,2 days
+522,148,Double vision,5,2 days
+523,148,Numbness,5,3 hours
+524,148,Tingling sensation,5,3 hours
+525,148,Chills,2,1 hour
+526,149,Double vision,1,6 hours
+527,149,Chest pain,5,1 day
+528,150,Persistent cough,1,1 day
+529,150,Fatigue,2,1 hour
+530,150,Fever,2,2 days
+531,150,Palpitations,1,3 hours
+532,151,Wheezing,4,1 day
+533,151,Numbness,1,6 hours
+534,151,Chest tightness,1,1 hour
+535,151,Tingling sensation,3,3 hours
+536,152,Ear pain,4,6 hours
+537,152,Burning urination,5,1 day
+538,153,Back stiffness,3,2 days
+539,153,Chest pain,3,1 day
+540,153,Persistent cough,1,1 hour
+541,153,Fever,4,6 hours
+542,154,Shortness of breath,5,3 hours
+543,154,Abdominal pain,5,2 days
+544,155,Tingling sensation,1,2 days
+545,155,Ear pain,1,1 hour
+546,155,Frequent urination,4,6 hours
+547,155,Tingling sensation,5,1 day
+548,155,Neck pain,5,1 day
+549,156,Muscle weakness,5,6 hours
+550,156,Excessive sweating,2,6 hours
+551,156,Shortness of breath,2,3 hours
+552,157,Excessive sweating,3,6 hours
+553,157,Neck pain,4,3 hours
+554,157,Burning urination,4,1 day
+555,157,Wheezing,2,3 hours
+556,158,Loss of consciousness,4,6 hours
+557,158,Hoarseness,4,1 day
+558,158,Muscle weakness,5,3 hours
+559,159,Abdominal pain,2,2 days
+560,159,Wheezing,1,3 hours
+561,159,Chills,5,6 hours
+562,160,Muscle weakness,4,3 hours
+563,160,Weight gain,3,1 day
+564,161,Diarrhea,1,3 hours
+565,161,Chest pain,4,3 hours
+566,161,Headache,4,6 hours
+567,161,Fatigue,5,3 hours
+568,162,Persistent cough,2,1 day
+569,162,Wheezing,4,6 hours
+570,162,Night sweats,5,2 days
+571,162,Wheezing,3,2 days
+572,163,Double vision,2,2 days
+573,163,Swelling in legs,2,6 hours
+574,163,Joint pain,5,6 hours
+575,163,Persistent cough,5,2 days
+576,163,Dizziness,5,1 hour
+577,164,Seizures,5,1 day
+578,164,Dizziness,3,3 hours
+579,164,Loss of consciousness,4,1 hour
+580,164,Weight gain,3,3 hours
+581,165,Swelling in legs,3,1 day
+582,165,Vomiting,4,1 hour
+583,165,Persistent cough,3,3 hours
+584,165,Sore throat,2,3 hours
+585,165,Skin rash,5,1 hour
+586,166,Fatigue,1,1 day
+587,166,Tingling sensation,3,2 days
+588,166,Abdominal pain,4,6 hours
+589,167,Loss of appetite,5,2 days
+590,167,Itching,4,2 days
+591,168,Skin rash,2,1 hour
+592,168,Hoarseness,5,3 hours
+593,168,Weight gain,3,6 hours
+594,168,Tingling sensation,3,1 hour
+595,169,Cough,2,6 hours
+596,169,Sore throat,3,2 days
+597,170,Double vision,3,2 days
+598,170,Swelling in legs,3,1 hour
+599,171,Joint pain,5,1 hour
+600,171,Shortness of breath,3,2 days
+601,171,Fever,1,2 days
+602,171,Numbness,1,6 hours
+603,171,Sore throat,5,6 hours
+604,172,Palpitations,1,3 hours
+605,172,Abdominal pain,1,1 hour
+606,172,Night sweats,3,6 hours
+607,173,Swelling in legs,4,3 hours
+608,173,Tingling sensation,2,2 days
+609,173,Weight gain,3,3 hours
+610,174,Burning urination,5,1 hour
+611,174,Numbness,2,3 hours
+612,175,Joint pain,5,6 hours
+613,175,Muscle weakness,3,6 hours
+614,176,Headache,4,1 hour
+615,176,Hoarseness,5,1 hour
+616,176,Abdominal pain,2,2 days
+617,176,Dizziness,4,3 hours
+618,177,Frequent urination,4,6 hours
+619,177,Abdominal pain,4,6 hours
+620,178,Palpitations,5,6 hours
+621,178,Shortness of breath,2,1 hour
+622,178,Tingling sensation,1,6 hours
+623,178,Itching,1,6 hours
+624,179,Joint pain,4,6 hours
+625,179,Shortness of breath,2,1 hour
+626,179,Numbness,1,1 hour
+627,179,Loss of appetite,2,3 hours
+628,180,Wheezing,1,6 hours
+629,180,Chest tightness,2,2 days
+630,180,Itching,2,6 hours
+631,180,Excessive sweating,1,3 hours
+632,180,Chest tightness,2,6 hours
+633,181,Cough,3,6 hours
+634,181,Abdominal pain,3,6 hours
+635,181,Weight gain,3,1 day
+636,181,Cough,2,6 hours
+637,182,Sore throat,3,1 day
+638,182,Chest tightness,4,1 day
+639,182,Night sweats,4,6 hours
+640,182,Blurred vision,4,3 hours
+641,183,Shortness of breath,1,1 day
+642,183,Tingling sensation,2,3 hours
+643,183,Back stiffness,3,2 days
+644,183,Sore throat,4,1 hour
+645,184,Fatigue,3,1 hour
+646,184,Loss of appetite,1,2 days
+647,184,Itching,3,1 hour
+648,184,Blurred vision,4,1 day
+649,184,Frequent urination,4,1 hour
+650,185,Excessive sweating,4,6 hours
+651,185,Loss of appetite,2,3 hours
+652,185,Weight loss,2,1 day
+653,186,Neck pain,5,2 days
+654,186,Shortness of breath,1,2 days
+655,186,Chills,2,1 day
+656,186,Weight loss,1,3 hours
+657,186,Fatigue,1,3 hours
+658,187,Back stiffness,1,1 day
+659,187,Frequent urination,3,6 hours
+660,187,Chills,3,2 days
+661,188,Cough,2,1 day
+662,188,Persistent cough,5,6 hours
+663,189,Cough,2,3 hours
+664,189,Ear pain,2,1 hour
+665,189,Loss of consciousness,3,3 hours
+666,189,Fever,1,3 hours
+667,190,Chest tightness,2,3 hours
+668,190,Cough,5,1 hour
+669,190,Nausea,4,6 hours
+670,190,Weight loss,5,6 hours
+671,190,Cough,1,3 hours
+672,191,Itching,1,6 hours
+673,191,Double vision,2,3 hours
+674,191,Wheezing,4,2 days
+675,191,Burning urination,1,1 day
+676,192,Tingling sensation,2,1 day
+677,192,Wheezing,2,1 hour
+678,192,Vomiting,4,2 days
+679,193,Fever,3,3 hours
+680,193,Tingling sensation,2,6 hours
+681,193,Chills,4,2 days
+682,194,Excessive sweating,3,1 hour
+683,194,Excessive sweating,4,1 hour
+684,194,Swelling in legs,5,3 hours
+685,194,Blurred vision,5,1 hour
+686,195,Fever,4,6 hours
+687,195,Abdominal pain,2,6 hours
+688,195,Muscle weakness,4,6 hours
+689,195,Burning urination,5,2 days
+690,196,Chills,4,1 hour
+691,196,Sore throat,4,3 hours
+692,197,Abdominal pain,3,3 hours
+693,197,Headache,4,3 hours
+694,197,Double vision,1,3 hours
+695,197,Ear pain,2,2 days
+696,198,Weight gain,2,3 hours
+697,198,Swelling in legs,4,6 hours
+698,198,Headache,2,6 hours
+699,199,Weight gain,2,1 day
+700,199,Excessive sweating,5,3 hours
+701,199,Back stiffness,4,6 hours
+702,199,Hoarseness,4,1 hour
+703,199,Chest pain,2,3 hours
+704,200,Headache,2,1 day
+705,200,Ear pain,4,3 hours
+706,201,Dizziness,3,1 day
+707,201,Fatigue,5,6 hours
+708,202,Diarrhea,4,1 day
+709,202,Skin rash,2,2 days
+710,202,Nausea,5,3 hours
+711,202,Nausea,3,1 hour
+712,202,Wheezing,4,1 day
+713,203,Weight gain,3,3 hours
+714,203,Back stiffness,3,6 hours
+715,203,Cough,5,6 hours
+716,204,Swelling in legs,3,6 hours
+717,204,Double vision,5,1 day
+718,204,Chills,2,1 hour
+719,204,Headache,5,1 day
+720,204,Chest tightness,5,1 hour
+721,205,Diarrhea,5,3 hours
+722,205,Night sweats,4,6 hours
+723,205,Sore throat,4,1 day
+724,205,Chest pain,1,1 day
+725,206,Seizures,2,1 day
+726,206,Chest tightness,1,1 day
+727,206,Swelling in legs,1,1 day
+728,206,Joint pain,4,1 hour
+729,207,Cough,1,2 days
+730,207,Palpitations,4,3 hours
+731,207,Fatigue,5,2 days
+732,207,Weight gain,5,1 hour
+733,207,Muscle weakness,5,2 days
+734,208,Chest pain,4,6 hours
+735,208,Frequent urination,3,1 hour
+736,208,Vomiting,2,1 hour
+737,208,Diarrhea,3,2 days
+738,209,Weight gain,2,6 hours
+739,209,Itching,5,2 days
+740,210,Back stiffness,3,2 days
+741,210,Wheezing,4,3 hours
+742,210,Blurred vision,1,6 hours
+743,211,Palpitations,4,6 hours
+744,211,Numbness,5,2 days
+745,211,Dizziness,2,1 hour
+746,211,Weight gain,2,6 hours
+747,212,Frequent urination,5,1 hour
+748,212,Burning urination,2,1 hour
+749,212,Muscle weakness,4,3 hours
+750,212,Chest pain,3,2 days
+751,213,Persistent cough,4,3 hours
+752,213,Loss of appetite,5,1 day
+753,213,Shortness of breath,3,2 days
+754,214,Loss of consciousness,5,1 hour
+755,214,Persistent cough,1,6 hours
+756,214,Frequent urination,4,1 day
+757,214,Night sweats,4,1 day
+758,215,Shortness of breath,4,1 day
+759,215,Shortness of breath,4,2 days
+760,215,Wheezing,1,6 hours
+761,215,Hoarseness,2,3 hours
+762,215,Wheezing,3,1 hour
+763,216,Seizures,3,2 days
+764,216,Muscle weakness,1,3 hours
+765,216,Dizziness,4,3 hours
+766,216,Swelling in legs,2,6 hours
+767,216,Muscle weakness,5,1 hour
+768,217,Persistent cough,5,1 hour
+769,217,Chest pain,3,1 hour
+770,217,Double vision,2,3 hours
+771,218,Chills,2,6 hours
+772,218,Weight loss,5,3 hours
+773,218,Loss of consciousness,1,2 days
+774,218,Numbness,1,1 day
+775,218,Sore throat,4,1 hour
+776,219,Sore throat,4,1 day
+777,219,Diarrhea,4,1 day
+778,220,Ear pain,2,3 hours
+779,220,Diarrhea,4,1 day
+780,221,Weight loss,3,6 hours
+781,221,Abdominal pain,1,3 hours
+782,221,Frequent urination,3,6 hours
+783,222,Weight gain,3,3 hours
+784,222,Swelling in legs,1,1 day
+785,222,Hoarseness,5,1 hour
+786,222,Vomiting,2,6 hours
+787,222,Diarrhea,5,2 days
+788,223,Skin rash,5,1 hour
+789,223,Abdominal pain,3,6 hours
+790,223,Abdominal pain,4,3 hours
+791,224,Back stiffness,3,6 hours
+792,224,Hoarseness,4,6 hours
+793,224,Joint pain,5,1 day
+794,225,Dizziness,1,6 hours
+795,225,Diarrhea,5,1 hour
+796,225,Neck pain,4,2 days
+797,226,Fatigue,3,3 hours
+798,226,Headache,2,3 hours
+799,226,Chest tightness,1,6 hours
+800,226,Loss of consciousness,4,2 days
+801,226,Fever,3,1 day
+802,227,Hoarseness,1,1 hour
+803,227,Back stiffness,2,2 days
+804,227,Cough,2,1 hour
+805,227,Dizziness,1,1 hour
+806,228,Neck pain,3,2 days
+807,228,Weight loss,1,1 day
+808,228,Diarrhea,2,2 days
+809,228,Double vision,5,1 hour
+810,229,Blurred vision,3,3 hours
+811,229,Palpitations,1,2 days
+812,229,Loss of consciousness,1,2 days
+813,229,Burning urination,1,1 hour
+814,230,Muscle weakness,2,2 days
+815,230,Numbness,2,6 hours
+816,230,Fatigue,4,1 hour
+817,231,Loss of consciousness,1,6 hours
+818,231,Weight loss,5,3 hours
+819,231,Chills,4,1 hour
+820,232,Loss of appetite,2,6 hours
+821,232,Ear pain,2,6 hours
+822,232,Headache,4,1 day
+823,233,Wheezing,2,6 hours
+824,233,Headache,4,3 hours
+825,234,Abdominal pain,5,3 hours
+826,234,Palpitations,1,1 hour
+827,234,Weight gain,2,1 day
+828,234,Sore throat,1,6 hours
+829,234,Weight loss,5,2 days
+830,235,Muscle weakness,4,1 hour
+831,235,Chest tightness,5,3 hours
+832,235,Diarrhea,2,2 days
+833,235,Fever,4,1 hour
+834,236,Blurred vision,4,2 days
+835,236,Burning urination,2,1 day
+836,236,Night sweats,3,2 days
+837,236,Chest tightness,5,1 hour
+838,237,Weight loss,2,6 hours
+839,237,Muscle weakness,2,1 day
+840,237,Abdominal pain,1,2 days
+841,237,Skin rash,2,6 hours
+842,237,Loss of appetite,4,6 hours
+843,238,Palpitations,1,3 hours
+844,238,Ear pain,3,2 days
+845,239,Tingling sensation,5,3 hours
+846,239,Night sweats,3,3 hours
+847,239,Headache,1,2 days
+848,240,Muscle weakness,4,1 day
+849,240,Headache,5,3 hours
+850,240,Excessive sweating,2,2 days
+851,240,Skin rash,4,1 hour
+852,241,Double vision,1,3 hours
+853,241,Chills,2,3 hours
+854,241,Wheezing,3,6 hours
+855,242,Chest tightness,1,3 hours
+856,242,Fever,4,1 day
+857,242,Shortness of breath,4,6 hours
+858,243,Muscle weakness,3,1 hour
+859,243,Wheezing,2,6 hours
+860,243,Chills,4,6 hours
+861,243,Sore throat,5,3 hours
+862,244,Fever,4,6 hours
+863,244,Blurred vision,1,2 days
+864,244,Abdominal pain,2,1 hour
+865,244,Back stiffness,1,6 hours
+866,245,Nausea,2,3 hours
+867,245,Excessive sweating,3,3 hours
+868,245,Chest tightness,4,2 days
+869,245,Persistent cough,5,3 hours
+870,245,Itching,3,6 hours
+871,246,Chills,1,1 day
+872,246,Seizures,3,1 day
+873,247,Muscle weakness,5,6 hours
+874,247,Vomiting,2,6 hours
+875,247,Tingling sensation,3,3 hours
+876,247,Skin rash,2,3 hours
+877,247,Tingling sensation,1,3 hours
+878,248,Wheezing,4,2 days
+879,248,Nausea,2,3 hours
+880,248,Sore throat,1,6 hours
+881,249,Cough,3,1 day
+882,249,Dizziness,4,3 hours
+883,249,Swelling in legs,1,6 hours
+884,249,Loss of consciousness,3,1 hour
+885,250,Fatigue,2,6 hours
+886,250,Loss of appetite,1,2 days
+887,250,Ear pain,1,3 hours
+888,251,Back stiffness,3,3 hours
+889,251,Weight loss,1,1 day
+890,251,Chest tightness,5,3 hours
+891,251,Swelling in legs,4,3 hours
+892,252,Chest tightness,4,6 hours
+893,252,Neck pain,5,1 hour
+894,252,Tingling sensation,4,1 day
+895,252,Ear pain,3,6 hours
+896,252,Loss of consciousness,1,6 hours
+897,253,Double vision,1,1 hour
+898,253,Joint pain,5,6 hours
+899,254,Joint pain,4,3 hours
+900,254,Shortness of breath,1,2 days
+901,254,Hoarseness,2,2 days
+902,254,Diarrhea,4,6 hours
+903,255,Shortness of breath,1,1 day
+904,255,Chest tightness,5,1 day
+905,255,Frequent urination,2,6 hours
+906,255,Skin rash,4,1 hour
+907,256,Loss of appetite,2,6 hours
+908,256,Hoarseness,1,1 day
+909,256,Neck pain,2,3 hours
+910,256,Chest pain,3,3 hours
+911,257,Double vision,1,3 hours
+912,257,Headache,2,2 days
+913,257,Chest tightness,1,6 hours
+914,257,Nausea,1,3 hours
+915,258,Shortness of breath,4,1 day
+916,258,Abdominal pain,2,2 days
+917,259,Palpitations,5,3 hours
+918,259,Chest tightness,3,6 hours
+919,259,Ear pain,3,6 hours
+920,259,Cough,3,2 days
+921,259,Back stiffness,4,3 hours
+922,260,Wheezing,3,6 hours
+923,260,Persistent cough,2,1 day
+924,260,Night sweats,1,6 hours
+925,260,Burning urination,5,6 hours
+926,260,Nausea,4,1 hour
+927,261,Persistent cough,4,1 day
+928,261,Frequent urination,4,1 day
+929,261,Muscle weakness,1,1 day
+930,262,Fatigue,2,2 days
+931,262,Fever,4,3 hours
+932,262,Loss of consciousness,3,3 hours
+933,262,Wheezing,4,3 hours
+934,263,Back stiffness,1,2 days
+935,263,Fever,1,2 days
+936,263,Fatigue,5,6 hours
+937,263,Night sweats,1,1 hour
+938,263,Skin rash,2,1 day
+939,264,Neck pain,2,2 days
+940,264,Blurred vision,1,2 days
+941,265,Double vision,5,1 day
+942,265,Double vision,2,1 day
+943,265,Chills,3,6 hours
+944,265,Muscle weakness,1,3 hours
+945,265,Nausea,2,2 days
+946,266,Tingling sensation,4,2 days
+947,266,Hoarseness,5,1 day
+948,266,Hoarseness,3,1 day
+949,266,Chest tightness,3,1 hour
+950,266,Joint pain,2,6 hours
+951,267,Chest pain,4,1 hour
+952,267,Loss of consciousness,5,1 hour
+953,267,Chest tightness,3,2 days
+954,268,Double vision,3,2 days
+955,268,Palpitations,3,6 hours
+956,268,Chest pain,3,6 hours
+957,269,Loss of appetite,2,3 hours
+958,269,Night sweats,3,1 day
+959,269,Back stiffness,3,3 hours
+960,269,Seizures,1,6 hours
+961,269,Excessive sweating,1,1 hour
+962,270,Shortness of breath,2,3 hours
+963,270,Nausea,3,1 day
+964,271,Shortness of breath,4,1 hour
+965,271,Night sweats,5,2 days
+966,271,Hoarseness,2,1 day
+967,271,Back stiffness,2,1 hour
+968,271,Skin rash,5,1 day
+969,272,Joint pain,4,3 hours
+970,272,Abdominal pain,1,1 hour
+971,272,Palpitations,1,6 hours
+972,272,Abdominal pain,3,2 days
+973,272,Joint pain,5,6 hours
+974,273,Fever,5,2 days
+975,273,Itching,4,1 day
+976,274,Loss of appetite,1,1 hour
+977,274,Numbness,3,1 day
+978,274,Loss of appetite,3,2 days
+979,275,Chills,3,6 hours
+980,275,Cough,4,1 hour
+981,275,Loss of appetite,4,6 hours
+982,275,Swelling in legs,3,2 days
+983,275,Night sweats,1,1 day
+984,276,Fever,1,1 hour
+985,276,Chest tightness,1,1 hour
+986,276,Weight loss,2,1 hour
+987,277,Weight gain,3,2 days
+988,277,Loss of consciousness,4,3 hours
+989,278,Night sweats,3,1 hour
+990,278,Burning urination,1,1 day
+991,278,Neck pain,5,2 days
+992,278,Itching,3,6 hours
+993,279,Weight loss,5,3 hours
+994,279,Weight loss,4,3 hours
+995,279,Muscle weakness,1,1 hour
+996,279,Excessive sweating,2,2 days
+997,280,Shortness of breath,2,3 hours
+998,280,Vomiting,5,2 days
+999,280,Wheezing,3,3 hours
+1000,280,Abdominal pain,2,1 hour
+1001,280,Sore throat,4,1 day
+1002,281,Nausea,1,2 days
+1003,281,Chills,1,3 hours
+1004,282,Sore throat,2,2 days
+1005,282,Blurred vision,2,1 hour
+1006,282,Frequent urination,2,6 hours
+1007,283,Abdominal pain,4,1 day
+1008,283,Itching,1,1 hour
+1009,284,Muscle weakness,4,1 hour
+1010,284,Sore throat,1,3 hours
+1011,284,Tingling sensation,5,2 days
+1012,285,Neck pain,4,3 hours
+1013,285,Cough,3,2 days
+1014,286,Double vision,5,3 hours
+1015,286,Itching,4,2 days
+1016,286,Blurred vision,3,1 day
+1017,287,Chills,4,1 hour
+1018,287,Skin rash,1,1 hour
+1019,287,Palpitations,1,2 days
+1020,288,Chills,1,1 day
+1021,288,Back stiffness,3,1 day
+1022,289,Chest tightness,5,1 day
+1023,289,Headache,1,6 hours
+1024,289,Weight loss,5,1 hour
+1025,290,Dizziness,3,2 days
+1026,290,Blurred vision,1,3 hours
+1027,291,Ear pain,3,1 day
+1028,291,Sore throat,2,6 hours
+1029,291,Hoarseness,4,1 hour
+1030,291,Shortness of breath,4,6 hours
+1031,291,Ear pain,3,2 days
+1032,292,Chest tightness,2,1 hour
+1033,292,Hoarseness,2,6 hours
+1034,293,Back stiffness,3,1 day
+1035,293,Muscle weakness,2,1 hour
+1036,293,Dizziness,5,1 day
+1037,293,Blurred vision,2,1 hour
+1038,293,Palpitations,5,3 hours
+1039,294,Joint pain,2,1 hour
+1040,294,Palpitations,2,2 days
+1041,294,Chills,5,1 hour
+1042,294,Chest pain,1,1 hour
+1043,294,Neck pain,2,1 hour
+1044,295,Weight loss,2,1 hour
+1045,295,Neck pain,4,2 days
+1046,296,Diarrhea,2,1 day
+1047,296,Shortness of breath,4,2 days
+1048,296,Blurred vision,1,3 hours
+1049,296,Excessive sweating,2,3 hours
+1050,297,Back stiffness,5,3 hours
+1051,297,Chills,4,1 hour
+1052,298,Excessive sweating,4,1 day
+1053,298,Swelling in legs,4,2 days
+1054,298,Burning urination,4,3 hours
+1055,298,Burning urination,2,2 days
+1056,299,Muscle weakness,2,2 days
+1057,299,Vomiting,4,1 hour
+1058,300,Loss of consciousness,5,3 hours
+1059,300,Night sweats,4,1 hour
+1060,300,Persistent cough,5,1 hour
+1061,301,Itching,5,6 hours
+1062,301,Persistent cough,3,1 hour
+1063,301,Shortness of breath,3,1 day
+1064,301,Abdominal pain,3,1 hour
+1065,301,Sore throat,4,1 hour
+1066,302,Loss of appetite,3,2 days
+1067,302,Hoarseness,3,1 day
+1068,302,Blurred vision,4,3 hours
+1069,302,Joint pain,4,6 hours
+1070,302,Tingling sensation,3,1 hour
+1071,303,Back stiffness,4,3 hours
+1072,303,Night sweats,3,1 day
+1073,303,Palpitations,3,1 hour
+1074,303,Dizziness,3,1 day
+1075,304,Fever,3,1 day
+1076,304,Night sweats,5,1 hour
+1077,304,Cough,4,1 day
+1078,304,Blurred vision,5,6 hours
+1079,304,Abdominal pain,4,2 days
+1080,305,Loss of consciousness,5,1 hour
+1081,305,Swelling in legs,4,3 hours
+1082,305,Shortness of breath,1,1 day
+1083,305,Blurred vision,5,6 hours
+1084,305,Hoarseness,1,1 hour
+1085,306,Abdominal pain,4,3 hours
+1086,306,Blurred vision,3,1 day
+1087,307,Swelling in legs,2,2 days
+1088,307,Burning urination,5,1 day
+1089,307,Blurred vision,5,1 day
+1090,308,Joint pain,5,1 day
+1091,308,Loss of consciousness,1,6 hours
+1092,309,Nausea,1,3 hours
+1093,309,Frequent urination,1,1 hour
+1094,309,Wheezing,5,3 hours
+1095,309,Burning urination,4,1 day
+1096,309,Headache,4,2 days
+1097,310,Persistent cough,4,1 day
+1098,310,Sore throat,4,1 hour
+1099,310,Double vision,4,1 day
+1100,311,Diarrhea,3,2 days
+1101,311,Neck pain,1,6 hours
+1102,311,Persistent cough,2,1 hour
+1103,312,Vomiting,5,1 hour
+1104,312,Seizures,2,1 hour
+1105,312,Fever,2,2 days
+1106,312,Fatigue,1,1 day
+1107,312,Night sweats,1,1 day
+1108,313,Abdominal pain,4,3 hours
+1109,313,Neck pain,5,1 hour
+1110,314,Burning urination,1,3 hours
+1111,314,Shortness of breath,1,2 days
+1112,314,Excessive sweating,1,1 day
+1113,314,Joint pain,1,1 hour
+1114,315,Ear pain,4,6 hours
+1115,315,Hoarseness,2,6 hours
+1116,315,Dizziness,1,6 hours
+1117,316,Excessive sweating,2,3 hours
+1118,316,Ear pain,3,6 hours
+1119,316,Back stiffness,1,2 days
+1120,317,Frequent urination,3,2 days
+1121,317,Joint pain,1,2 days
+1122,317,Itching,2,2 days
+1123,318,Chest tightness,4,2 days
+1124,318,Fatigue,5,3 hours
+1125,318,Fatigue,5,1 hour
+1126,318,Tingling sensation,4,2 days
+1127,318,Joint pain,4,3 hours
+1128,319,Double vision,1,3 hours
+1129,319,Ear pain,1,1 day
+1130,319,Burning urination,3,3 hours
+1131,320,Palpitations,1,6 hours
+1132,320,Numbness,5,2 days
+1133,320,Tingling sensation,2,1 day
+1134,320,Neck pain,3,6 hours
+1135,320,Back stiffness,3,3 hours
+1136,321,Fatigue,1,1 hour
+1137,321,Skin rash,3,1 day
+1138,321,Joint pain,4,6 hours
+1139,321,Numbness,3,6 hours
+1140,322,Back stiffness,2,1 hour
+1141,322,Shortness of breath,4,2 days
+1142,322,Seizures,4,3 hours
+1143,323,Muscle weakness,5,1 day
+1144,323,Sore throat,3,6 hours
+1145,323,Vomiting,5,3 hours
+1146,324,Wheezing,5,2 days
+1147,324,Chills,5,1 hour
+1148,324,Night sweats,3,1 hour
+1149,324,Nausea,4,6 hours
+1150,324,Cough,5,1 day
+1151,325,Numbness,2,3 hours
+1152,325,Double vision,4,1 day
+1153,325,Abdominal pain,4,1 day
+1154,325,Skin rash,4,1 hour
+1155,326,Weight loss,1,2 days
+1156,326,Chest tightness,5,1 day
+1157,326,Seizures,5,3 hours
+1158,326,Joint pain,5,3 hours
+1159,327,Swelling in legs,4,3 hours
+1160,327,Itching,5,6 hours
+1161,327,Blurred vision,5,3 hours
+1162,328,Fever,5,3 hours
+1163,328,Double vision,5,1 day
+1164,328,Back stiffness,5,1 day
+1165,328,Seizures,4,3 hours
+1166,328,Fatigue,3,6 hours
+1167,329,Joint pain,2,1 hour
+1168,329,Palpitations,4,1 day
+1169,329,Ear pain,5,3 hours
+1170,329,Blurred vision,2,3 hours
+1171,329,Back stiffness,1,1 day
+1172,330,Neck pain,4,2 days
+1173,330,Headache,2,6 hours
+1174,330,Dizziness,4,2 days
+1175,330,Double vision,2,6 hours
+1176,331,Swelling in legs,3,6 hours
+1177,331,Double vision,5,1 hour
+1178,331,Dizziness,2,1 hour
+1179,331,Weight loss,2,6 hours
+1180,332,Back stiffness,3,1 hour
+1181,332,Swelling in legs,4,1 hour
+1182,332,Frequent urination,3,1 day
+1183,332,Dizziness,5,2 days
+1184,333,Sore throat,4,1 day
+1185,333,Back stiffness,4,1 day
+1186,334,Back stiffness,4,6 hours
+1187,334,Weight gain,3,2 days
+1188,334,Joint pain,3,1 day
+1189,334,Cough,4,6 hours
+1190,334,Loss of consciousness,3,2 days
+1191,335,Cough,5,2 days
+1192,335,Seizures,4,2 days
+1193,336,Nausea,3,1 day
+1194,336,Back stiffness,5,1 hour
+1195,336,Loss of appetite,2,6 hours
+1196,336,Itching,2,6 hours
+1197,336,Joint pain,1,6 hours
+1198,337,Chills,5,6 hours
+1199,337,Wheezing,1,1 day
+1200,338,Itching,2,1 hour
+1201,338,Chest tightness,1,2 days
+1202,338,Joint pain,5,2 days
+1203,338,Sore throat,1,1 hour
+1204,338,Back stiffness,3,1 hour
+1205,339,Dizziness,2,1 hour
+1206,339,Hoarseness,4,1 hour
+1207,339,Cough,2,3 hours
+1208,339,Tingling sensation,3,6 hours
+1209,340,Loss of appetite,3,6 hours
+1210,340,Back stiffness,4,2 days
+1211,341,Cough,4,2 days
+1212,341,Muscle weakness,5,6 hours
+1213,341,Back stiffness,2,1 hour
+1214,341,Seizures,3,3 hours
+1215,342,Abdominal pain,3,1 day
+1216,342,Skin rash,4,3 hours
+1217,342,Joint pain,3,2 days
+1218,342,Itching,2,6 hours
+1219,342,Palpitations,5,2 days
+1220,343,Weight gain,2,1 day
+1221,343,Tingling sensation,2,1 hour
+1222,343,Nausea,1,6 hours
+1223,343,Wheezing,5,3 hours
+1224,343,Double vision,4,3 hours
+1225,344,Cough,3,1 day
+1226,344,Numbness,2,6 hours
+1227,344,Frequent urination,4,2 days
+1228,344,Night sweats,2,6 hours
+1229,344,Vomiting,5,6 hours
+1230,345,Joint pain,5,3 hours
+1231,345,Sore throat,2,3 hours
+1232,346,Chest tightness,3,6 hours
+1233,346,Vomiting,3,1 hour
+1234,346,Weight loss,3,1 day
+1235,347,Persistent cough,5,2 days
+1236,347,Tingling sensation,3,2 days
+1237,347,Shortness of breath,2,6 hours
+1238,348,Tingling sensation,4,6 hours
+1239,348,Numbness,5,1 hour
+1240,348,Fever,2,3 hours
+1241,348,Dizziness,1,3 hours
+1242,349,Numbness,2,1 hour
+1243,349,Hoarseness,3,6 hours
+1244,350,Palpitations,2,1 day
+1245,350,Shortness of breath,3,1 hour
+1246,351,Night sweats,3,3 hours
+1247,351,Sore throat,2,1 day
+1248,351,Excessive sweating,4,3 hours
+1249,351,Itching,1,1 day
+1250,351,Nausea,5,2 days
+1251,352,Chest tightness,4,3 hours
+1252,352,Vomiting,5,2 days
+1253,353,Ear pain,1,1 day
+1254,353,Diarrhea,3,1 hour
+1255,353,Neck pain,1,2 days
+1256,353,Chills,4,6 hours
+1257,354,Weight gain,4,1 hour
+1258,354,Chest tightness,3,2 days
+1259,354,Wheezing,3,6 hours
+1260,355,Ear pain,3,3 hours
+1261,355,Headache,3,6 hours
+1262,355,Neck pain,3,6 hours
+1263,355,Cough,4,1 day
+1264,355,Muscle weakness,3,3 hours
+1265,356,Shortness of breath,5,6 hours
+1266,356,Loss of consciousness,1,2 days
+1267,356,Night sweats,3,1 day
+1268,357,Weight gain,4,1 day
+1269,357,Abdominal pain,2,2 days
+1270,358,Loss of appetite,3,3 hours
+1271,358,Shortness of breath,5,3 hours
+1272,359,Vomiting,3,1 day
+1273,359,Excessive sweating,2,6 hours
+1274,359,Skin rash,1,2 days
+1275,359,Shortness of breath,5,1 hour
+1276,360,Burning urination,5,6 hours
+1277,360,Swelling in legs,4,1 day
+1278,360,Double vision,1,3 hours
+1279,360,Fever,4,1 day
+1280,361,Fever,2,2 days
+1281,361,Numbness,4,1 hour
+1282,361,Muscle weakness,5,3 hours
+1283,361,Weight gain,3,2 days
+1284,361,Diarrhea,5,1 day
+1285,362,Hoarseness,3,1 hour
+1286,362,Persistent cough,1,3 hours
+1287,362,Loss of appetite,2,6 hours
+1288,363,Wheezing,5,3 hours
+1289,363,Chest tightness,5,1 day
+1290,363,Tingling sensation,3,3 hours
+1291,364,Sore throat,5,2 days
+1292,364,Seizures,4,2 days
+1293,365,Burning urination,3,1 day
+1294,365,Loss of appetite,2,1 hour
+1295,366,Vomiting,5,3 hours
+1296,366,Chest pain,3,1 day
+1297,366,Joint pain,3,6 hours
+1298,367,Wheezing,5,1 hour
+1299,367,Chills,1,3 hours
+1300,367,Blurred vision,5,2 days
+1301,367,Muscle weakness,3,1 day
+1302,368,Abdominal pain,3,1 day
+1303,368,Hoarseness,2,1 hour
+1304,368,Persistent cough,5,3 hours
+1305,369,Chills,4,2 days
+1306,369,Neck pain,2,1 day
+1307,369,Excessive sweating,4,1 day
+1308,369,Back stiffness,1,1 day
+1309,369,Diarrhea,5,1 hour
+1310,370,Persistent cough,4,1 hour
+1311,370,Blurred vision,5,2 days
+1312,370,Nausea,1,1 hour
+1313,371,Chest pain,1,3 hours
+1314,371,Joint pain,3,6 hours
+1315,371,Cough,2,6 hours
+1316,372,Fever,3,1 hour
+1317,372,Headache,4,6 hours
+1318,372,Fatigue,1,6 hours
+1319,372,Double vision,1,2 days
+1320,372,Swelling in legs,5,1 hour
+1321,373,Fever,3,2 days
+1322,373,Swelling in legs,5,1 day
+1323,374,Chest tightness,1,1 hour
+1324,374,Swelling in legs,1,6 hours
+1325,374,Fatigue,3,1 hour
+1326,374,Loss of consciousness,4,1 hour
+1327,374,Dizziness,1,1 day
+1328,375,Seizures,2,1 day
+1329,375,Fatigue,1,2 days
+1330,375,Itching,4,3 hours
+1331,375,Double vision,3,3 hours
+1332,375,Neck pain,1,3 hours
+1333,376,Headache,1,2 days
+1334,376,Sore throat,4,1 hour
+1335,376,Loss of consciousness,3,6 hours
+1336,377,Wheezing,5,6 hours
+1337,377,Itching,5,2 days
+1338,377,Weight loss,1,2 days
+1339,378,Back stiffness,4,3 hours
+1340,378,Neck pain,1,6 hours
+1341,378,Ear pain,2,2 days
+1342,378,Loss of appetite,2,2 days
+1343,379,Neck pain,2,6 hours
+1344,379,Chest pain,2,2 days
+1345,380,Fever,4,6 hours
+1346,380,Ear pain,2,1 day
+1347,380,Diarrhea,2,1 hour
+1348,380,Tingling sensation,1,6 hours
+1349,380,Chills,4,6 hours
+1350,381,Diarrhea,3,1 hour
+1351,381,Double vision,4,1 hour
+1352,381,Back stiffness,5,6 hours
+1353,381,Shortness of breath,1,1 hour
+1354,382,Persistent cough,2,1 day
+1355,382,Neck pain,2,2 days
+1356,383,Abdominal pain,3,6 hours
+1357,383,Ear pain,1,1 hour
+1358,383,Persistent cough,4,1 day
+1359,383,Tingling sensation,4,3 hours
+1360,383,Headache,2,3 hours
+1361,384,Neck pain,3,2 days
+1362,384,Loss of appetite,5,1 hour
+1363,384,Itching,4,1 day
+1364,384,Blurred vision,1,1 hour
+1365,385,Persistent cough,3,1 hour
+1366,385,Frequent urination,4,1 hour
+1367,386,Skin rash,1,1 hour
+1368,386,Shortness of breath,3,3 hours
+1369,386,Excessive sweating,1,6 hours
+1370,387,Excessive sweating,4,2 days
+1371,387,Wheezing,1,6 hours
+1372,388,Cough,2,3 hours
+1373,388,Ear pain,3,3 hours
+1374,389,Ear pain,2,1 hour
+1375,389,Headache,1,1 day
+1376,389,Ear pain,3,1 hour
+1377,389,Cough,3,3 hours
+1378,390,Hoarseness,3,1 hour
+1379,390,Chills,4,1 hour
+1380,390,Joint pain,5,6 hours
+1381,390,Chest pain,3,1 hour
+1382,391,Numbness,4,3 hours
+1383,391,Fatigue,5,1 day
+1384,391,Nausea,5,3 hours
+1385,391,Itching,2,2 days
+1386,391,Diarrhea,4,1 hour
+1387,392,Palpitations,3,6 hours
+1388,392,Weight gain,1,2 days
+1389,392,Fever,3,6 hours
+1390,392,Hoarseness,2,2 days
+1391,392,Loss of appetite,1,3 hours
+1392,393,Muscle weakness,1,2 days
+1393,393,Vomiting,2,3 hours
+1394,393,Night sweats,4,1 hour
+1395,394,Weight gain,5,2 days
+1396,394,Burning urination,3,1 day
+1397,395,Muscle weakness,4,1 hour
+1398,395,Cough,2,3 hours
+1399,395,Chills,3,1 day
+1400,395,Nausea,5,1 hour
+1401,395,Sore throat,4,2 days
+1402,396,Numbness,5,1 day
+1403,396,Skin rash,1,3 hours
+1404,396,Seizures,3,6 hours
+1405,397,Hoarseness,1,1 hour
+1406,397,Neck pain,5,1 hour
+1407,398,Fever,4,1 hour
+1408,398,Double vision,2,2 days
+1409,398,Back stiffness,3,3 hours
+1410,399,Ear pain,5,3 hours
+1411,399,Abdominal pain,5,1 hour
+1412,399,Chest pain,3,3 hours
+1413,399,Joint pain,1,6 hours
+1414,400,Headache,1,1 hour
+1415,400,Excessive sweating,5,1 day
+1416,401,Diarrhea,4,2 days
+1417,401,Headache,1,2 days
+1418,401,Nausea,3,6 hours
+1419,401,Chest tightness,2,2 days
+1420,401,Sore throat,2,1 hour
+1421,402,Sore throat,3,3 hours
+1422,402,Muscle weakness,5,2 days
+1423,402,Sore throat,3,2 days
+1424,402,Headache,4,6 hours
+1425,402,Joint pain,5,3 hours
+1426,403,Shortness of breath,5,3 hours
+1427,403,Swelling in legs,4,6 hours
+1428,404,Weight gain,4,1 day
+1429,404,Hoarseness,3,1 hour
+1430,404,Persistent cough,4,6 hours
+1431,404,Weight gain,2,1 day
+1432,405,Nausea,2,1 day
+1433,405,Weight loss,3,3 hours
+1434,405,Sore throat,5,1 day
+1435,405,Shortness of breath,1,3 hours
+1436,405,Ear pain,3,1 day
+1437,406,Muscle weakness,4,1 day
+1438,406,Blurred vision,5,1 day
+1439,406,Blurred vision,4,2 days
+1440,406,Loss of appetite,5,6 hours
+1441,407,Chills,5,2 days
+1442,407,Headache,4,3 hours
+1443,407,Fever,3,6 hours
+1444,407,Weight gain,3,1 day
+1445,407,Sore throat,2,2 days
+1446,408,Sore throat,1,3 hours
+1447,408,Dizziness,5,3 hours
+1448,409,Seizures,5,1 hour
+1449,409,Neck pain,1,2 days
+1450,409,Sore throat,3,3 hours
+1451,410,Hoarseness,3,3 hours
+1452,410,Hoarseness,1,2 days
+1453,410,Loss of appetite,4,2 days
+1454,410,Frequent urination,3,6 hours
+1455,411,Frequent urination,2,2 days
+1456,411,Double vision,1,1 day
+1457,412,Night sweats,5,3 hours
+1458,412,Swelling in legs,5,1 hour
+1459,412,Swelling in legs,1,3 hours
+1460,413,Persistent cough,2,6 hours
+1461,413,Frequent urination,2,1 hour
+1462,413,Muscle weakness,4,1 hour
+1463,413,Cough,5,2 days
+1464,413,Skin rash,2,1 hour
+1465,414,Diarrhea,5,3 hours
+1466,414,Burning urination,5,1 day
+1467,414,Weight gain,2,3 hours
+1468,414,Double vision,2,1 hour
+1469,414,Vomiting,5,1 hour
+1470,415,Neck pain,5,1 day
+1471,415,Weight gain,2,3 hours
+1472,415,Tingling sensation,2,6 hours
+1473,416,Dizziness,2,3 hours
+1474,416,Excessive sweating,1,1 day
+1475,417,Swelling in legs,1,6 hours
+1476,417,Swelling in legs,1,1 day
+1477,417,Chest pain,5,1 hour
+1478,417,Ear pain,4,6 hours
+1479,418,Joint pain,5,2 days
+1480,418,Headache,1,1 day
+1481,418,Burning urination,4,1 day
+1482,418,Numbness,2,3 hours
+1483,419,Shortness of breath,5,6 hours
+1484,419,Loss of appetite,5,1 day
+1485,419,Sore throat,1,3 hours
+1486,420,Burning urination,5,1 day
+1487,420,Persistent cough,1,1 day
+1488,420,Back stiffness,1,1 day
+1489,421,Numbness,5,1 day
+1490,421,Itching,5,1 day
+1491,422,Seizures,1,2 days
+1492,422,Hoarseness,1,2 days
+1493,422,Night sweats,2,1 hour
+1494,423,Ear pain,1,3 hours
+1495,423,Chest tightness,3,6 hours
+1496,424,Chest tightness,1,1 hour
+1497,424,Itching,4,1 day
+1498,424,Shortness of breath,3,2 days
+1499,425,Headache,1,2 days
+1500,425,Skin rash,4,2 days
+1501,425,Loss of consciousness,1,2 days
+1502,426,Night sweats,2,2 days
+1503,426,Blurred vision,3,1 hour
+1504,426,Skin rash,3,6 hours
+1505,427,Dizziness,1,1 hour
+1506,427,Burning urination,4,6 hours
+1507,427,Swelling in legs,4,2 days
+1508,427,Blurred vision,5,1 hour
+1509,427,Palpitations,4,6 hours
+1510,428,Headache,4,6 hours
+1511,428,Weight gain,1,2 days
+1512,428,Nausea,1,1 hour
+1513,428,Night sweats,3,1 day
+1514,429,Fatigue,3,6 hours
+1515,429,Chest tightness,5,6 hours
+1516,430,Back stiffness,1,1 hour
+1517,430,Tingling sensation,5,3 hours
+1518,431,Fever,4,3 hours
+1519,431,Fever,4,1 hour
+1520,431,Nausea,2,3 hours
+1521,431,Frequent urination,5,1 day
+1522,431,Weight gain,5,3 hours
+1523,432,Ear pain,5,2 days
+1524,432,Sore throat,5,1 hour
+1525,432,Diarrhea,4,2 days
+1526,432,Hoarseness,3,2 days
+1527,433,Blurred vision,2,1 day
+1528,433,Chills,4,6 hours
+1529,433,Headache,4,3 hours
+1530,434,Fever,4,1 day
+1531,434,Dizziness,1,3 hours
+1532,435,Sore throat,3,6 hours
+1533,435,Chills,3,3 hours
+1534,435,Night sweats,5,2 days
+1535,435,Wheezing,5,3 hours
+1536,435,Excessive sweating,4,2 days
+1537,436,Dizziness,3,1 day
+1538,436,Double vision,4,3 hours
+1539,437,Numbness,3,6 hours
+1540,437,Blurred vision,5,3 hours
+1541,437,Muscle weakness,3,1 hour
+1542,437,Palpitations,1,1 day
+1543,437,Abdominal pain,4,2 days
+1544,438,Loss of consciousness,5,1 hour
+1545,438,Palpitations,5,1 hour
+1546,439,Diarrhea,5,2 days
+1547,439,Chest tightness,4,1 day
+1548,439,Diarrhea,2,3 hours
+1549,439,Numbness,2,1 hour
+1550,440,Double vision,2,1 day
+1551,440,Itching,1,3 hours
+1552,441,Weight loss,2,1 day
+1553,441,Itching,2,1 day
+1554,442,Vomiting,4,6 hours
+1555,442,Excessive sweating,4,2 days
+1556,443,Tingling sensation,4,6 hours
+1557,443,Loss of appetite,2,1 day
+1558,443,Neck pain,2,1 day
+1559,443,Wheezing,4,1 day
+1560,443,Ear pain,5,3 hours
+1561,444,Weight gain,4,6 hours
+1562,444,Abdominal pain,2,2 days
+1563,444,Back stiffness,3,2 days
+1564,444,Wheezing,1,2 days
+1565,444,Neck pain,5,1 hour
+1566,445,Dizziness,2,1 day
+1567,445,Weight gain,5,1 hour
+1568,445,Weight gain,5,6 hours
+1569,445,Muscle weakness,4,6 hours
+1570,446,Night sweats,1,1 day
+1571,446,Nausea,1,1 hour
+1572,446,Vomiting,1,3 hours
+1573,447,Night sweats,5,1 day
+1574,447,Tingling sensation,5,1 day
+1575,448,Night sweats,4,1 day
+1576,448,Weight loss,3,6 hours
+1577,448,Diarrhea,1,6 hours
+1578,448,Abdominal pain,5,1 day
+1579,448,Loss of consciousness,3,1 day
+1580,449,Fatigue,5,1 hour
+1581,449,Hoarseness,1,3 hours
+1582,449,Excessive sweating,4,2 days
+1583,450,Tingling sensation,4,1 day
+1584,450,Skin rash,1,1 day
+1585,451,Seizures,3,1 hour
+1586,451,Nausea,5,2 days
+1587,452,Weight gain,2,6 hours
+1588,452,Frequent urination,1,1 day
+1589,453,Weight loss,2,1 hour
+1590,453,Neck pain,3,1 day
+1591,453,Numbness,1,2 days
+1592,453,Nausea,3,2 days
+1593,453,Ear pain,1,2 days
+1594,454,Loss of appetite,4,2 days
+1595,454,Abdominal pain,1,2 days
+1596,454,Loss of consciousness,3,6 hours
+1597,454,Ear pain,2,3 hours
+1598,454,Headache,2,2 days
+1599,455,Dizziness,2,2 days
+1600,455,Excessive sweating,3,3 hours
+1601,455,Persistent cough,1,3 hours
+1602,455,Itching,3,2 days
+1603,456,Joint pain,1,3 hours
+1604,456,Weight loss,3,1 day
+1605,457,Fatigue,4,1 day
+1606,457,Vomiting,2,6 hours
+1607,457,Weight loss,1,6 hours
+1608,457,Ear pain,2,3 hours
+1609,458,Burning urination,1,1 hour
+1610,458,Nausea,2,6 hours
+1611,458,Cough,5,1 day
+1612,458,Weight gain,3,1 day
+1613,459,Back stiffness,3,1 hour
+1614,459,Burning urination,3,6 hours
+1615,460,Neck pain,5,1 day
+1616,460,Dizziness,2,1 hour
+1617,460,Seizures,1,3 hours
+1618,460,Joint pain,4,1 hour
+1619,460,Fatigue,1,2 days
+1620,461,Chest pain,5,1 day
+1621,461,Night sweats,2,2 days
+1622,462,Chest pain,5,1 hour
+1623,462,Night sweats,5,6 hours
+1624,463,Headache,4,2 days
+1625,463,Cough,5,1 hour
+1626,463,Shortness of breath,1,1 day
+1627,463,Weight gain,1,2 days
+1628,463,Persistent cough,4,6 hours
+1629,464,Excessive sweating,2,3 hours
+1630,464,Skin rash,4,1 day
+1631,465,Tingling sensation,5,6 hours
+1632,465,Neck pain,2,2 days
+1633,466,Fever,2,2 days
+1634,466,Burning urination,1,3 hours
+1635,466,Diarrhea,4,3 hours
+1636,466,Numbness,2,6 hours
+1637,467,Chest pain,2,1 day
+1638,467,Muscle weakness,1,1 day
+1639,467,Chest pain,2,6 hours
+1640,467,Headache,2,1 day
+1641,468,Chest tightness,5,2 days
+1642,468,Cough,4,6 hours
+1643,468,Joint pain,3,3 hours
+1644,468,Chest pain,4,1 day
+1645,468,Back stiffness,1,1 hour
+1646,469,Seizures,3,1 hour
+1647,469,Back stiffness,3,1 day
+1648,469,Numbness,1,3 hours
+1649,470,Itching,2,6 hours
+1650,470,Abdominal pain,3,6 hours
+1651,471,Fever,1,3 hours
+1652,471,Weight gain,5,1 hour
+1653,471,Nausea,3,1 hour
+1654,472,Burning urination,1,3 hours
+1655,472,Sore throat,1,1 hour
+1656,473,Neck pain,2,3 hours
+1657,473,Hoarseness,2,3 hours
+1658,473,Palpitations,3,1 day
+1659,473,Muscle weakness,2,1 day
+1660,474,Diarrhea,3,1 day
+1661,474,Palpitations,5,3 hours
+1662,474,Muscle weakness,5,1 hour
+1663,474,Nausea,2,2 days
+1664,474,Abdominal pain,2,2 days
+1665,475,Swelling in legs,4,3 hours
+1666,475,Night sweats,2,2 days
+1667,476,Double vision,4,2 days
+1668,476,Fever,5,6 hours
+1669,476,Joint pain,1,6 hours
+1670,477,Fatigue,5,1 day
+1671,477,Tingling sensation,4,2 days
+1672,477,Abdominal pain,3,2 days
+1673,477,Tingling sensation,2,3 hours
+1674,478,Shortness of breath,3,1 day
+1675,478,Wheezing,1,1 hour
+1676,478,Loss of appetite,1,2 days
+1677,478,Skin rash,1,1 hour
+1678,478,Skin rash,1,2 days
+1679,479,Skin rash,3,1 hour
+1680,479,Fever,2,3 hours
+1681,479,Excessive sweating,5,2 days
+1682,480,Tingling sensation,5,6 hours
+1683,480,Nausea,5,1 hour
+1684,480,Palpitations,1,1 day
+1685,480,Numbness,5,2 days
+1686,480,Burning urination,2,1 hour
+1687,481,Loss of consciousness,1,2 days
+1688,481,Neck pain,5,1 hour
+1689,482,Ear pain,4,2 days
+1690,482,Nausea,5,3 hours
+1691,483,Night sweats,2,1 day
+1692,483,Blurred vision,2,1 hour
+1693,483,Itching,1,2 days
+1694,483,Weight loss,2,2 days
+1695,483,Headache,2,2 days
+1696,484,Back stiffness,1,1 hour
+1697,484,Back stiffness,1,3 hours
+1698,484,Chest tightness,2,2 days
+1699,484,Muscle weakness,1,1 hour
+1700,484,Chest tightness,3,1 hour
+1701,485,Abdominal pain,5,6 hours
+1702,485,Ear pain,4,1 hour
+1703,485,Abdominal pain,4,1 day
+1704,485,Chest tightness,5,1 day
+1705,486,Back stiffness,1,6 hours
+1706,486,Weight loss,2,2 days
+1707,486,Skin rash,5,1 day
+1708,486,Skin rash,4,3 hours
+1709,486,Blurred vision,3,1 hour
+1710,487,Headache,5,1 hour
+1711,487,Weight gain,1,1 hour
+1712,487,Hoarseness,4,1 hour
+1713,487,Persistent cough,5,3 hours
+1714,487,Skin rash,2,2 days
+1715,488,Ear pain,3,2 days
+1716,488,Itching,2,6 hours
+1717,488,Fatigue,3,2 days
+1718,489,Ear pain,5,3 hours
+1719,489,Weight gain,1,1 hour
+1720,490,Numbness,4,2 days
+1721,490,Burning urination,1,1 day
+1722,490,Fatigue,1,1 hour
+1723,490,Skin rash,1,1 day
+1724,490,Shortness of breath,4,6 hours
+1725,491,Back stiffness,3,1 hour
+1726,491,Shortness of breath,5,3 hours
+1727,491,Fever,3,1 hour
+1728,491,Burning urination,5,6 hours
+1729,491,Seizures,2,1 hour
+1730,492,Shortness of breath,5,2 days
+1731,492,Diarrhea,1,1 hour
+1732,493,Frequent urination,2,6 hours
+1733,493,Chest tightness,1,1 hour
+1734,494,Diarrhea,2,1 day
+1735,494,Weight gain,1,1 day
+1736,495,Abdominal pain,2,1 hour
+1737,495,Hoarseness,2,1 day
+1738,495,Cough,2,6 hours
+1739,496,Shortness of breath,2,2 days
+1740,496,Persistent cough,4,6 hours
+1741,496,Neck pain,4,2 days
+1742,496,Abdominal pain,2,2 days
+1743,497,Swelling in legs,4,1 day
+1744,497,Double vision,1,2 days
+1745,498,Diarrhea,2,6 hours
+1746,498,Chest pain,3,3 hours
+1747,498,Excessive sweating,2,1 day
+1748,499,Joint pain,3,1 hour
+1749,499,Tingling sensation,1,1 day
+1750,499,Tingling sensation,2,2 days
+1751,499,Night sweats,3,1 day
+1752,499,Muscle weakness,2,6 hours
+1753,500,Palpitations,2,3 hours
+1754,500,Numbness,4,6 hours
+1755,500,Persistent cough,3,2 days

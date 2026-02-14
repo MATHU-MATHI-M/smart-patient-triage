@@ -1,0 +1,488 @@
+history_id,patient_id,condition_name,is_chronic,notes,diagnosis_date
+1,1,Diabetes,True,These thought fine development although play perform.,2022-01-19
+2,2,Kidney Disease,True,International trip president accept if its shake.,2022-03-12
+3,2,Kidney Disease,True,Generation movement admit determine main all rate.,2024-06-20
+4,2,Arthritis,True,Democratic best produce fight avoid.,2024-01-19
+5,3,Sleep Apnea,True,Charge product writer.,2024-06-08
+6,4,Gastritis,True,Deep become response social change.,2021-01-28
+7,5,Hypertension,True,Often act better Mr born.,2021-08-25
+8,5,Diabetes,True,Guy effort major would team.,2024-12-20
+9,5,Asthma,True,South treat center positive.,2022-03-06
+10,5,Migraine,True,Fine radio movie wall suggest thought open between.,2025-10-15
+11,6,Obesity,True,Realize particular really value.,2024-09-13
+12,6,Peptic Ulcer Disease,True,Enter blood agreement example.,2018-08-25
+13,7,Anemia,True,Work plant education range opportunity different.,2018-08-10
+14,8,Tuberculosis,True,Find doctor professor grow language rate.,2025-05-20
+15,8,Liver Disease,True,South whether Republican social space health.,2025-01-22
+16,9,Kidney Disease,True,Southern country really.,2021-07-01
+17,9,Depression,True,Reflect number matter my.,2021-06-17
+18,9,Gastritis,True,Including talk similar put along quality away.,2021-05-16
+19,9,Coronary Artery Disease,True,Mother happy view.,2021-07-23
+20,10,Parkinson’s Disease,True,Population north next general.,2019-01-15
+21,11,Tuberculosis,True,History often the everyone involve.,2019-02-13
+22,11,Hyperthyroidism,True,Mr guy Congress at once model candidate challenge.,2021-09-04
+23,12,Coronary Artery Disease,True,Model quality guess budget better ever evidence serious.,2019-07-20
+24,12,Arthritis,True,Age instead establish practice fish party.,2020-04-15
+25,12,Migraine,True,Mr measure example bed example develop factor room.,2020-10-09
+26,13,COPD,True,Hold skin environmental certainly worker.,2019-02-03
+27,13,Asthma,True,Mission rock discuss class range.,2021-03-01
+28,13,Hypothyroidism,True,Pattern paper also employee account population.,2025-07-04
+29,14,Epilepsy,True,Seven tough senior allow guess agency science.,2020-01-21
+30,15,Peptic Ulcer Disease,True,Drive early site collection.,2025-06-16
+31,15,Coronary Artery Disease,True,Really open employee all control long finish.,2018-05-02
+32,15,Alzheimer’s Disease,True,Cause friend material customer.,2022-07-21
+33,16,Cancer,True,Would manager idea win idea investment everybody.,2023-09-27
+34,17,Anemia,True,Father tend kitchen.,2018-09-22
+35,17,COPD,True,Read indeed city appear democratic section where.,2018-12-07
+36,17,Hypothyroidism,True,Often pressure wall little back.,2023-11-14
+37,17,Asthma,True,Character tend sing staff.,2024-09-21
+38,18,Peripheral Artery Disease,True,Yes visit respond time lose.,2022-05-13
+39,18,Liver Disease,True,Career type seem pattern.,2021-04-04
+40,18,Peptic Ulcer Disease,True,When get create scene perform.,2020-07-15
+41,19,Gastritis,True,Nation house discussion.,2019-05-23
+42,19,Migraine,True,Son pattern strong.,2023-08-08
+43,19,Tuberculosis,True,Machine language somebody message drive change entire myself.,2022-09-21
+44,20,Hypertension,True,But two safe.,2018-05-11
+45,21,Parkinson’s Disease,True,Statement one test over head hit.,2025-04-10
+46,21,Chronic Kidney Disease,True,Account entire go rather camera.,2020-03-20
+47,22,Osteoporosis,True,Country garden out blood nature short seat know.,2024-06-05
+48,23,Osteoporosis,True,Course about message small production turn best finally.,2022-10-16
+49,23,COPD,True,Half side standard Republican rest general friend.,2024-08-28
+50,24,Coronary Artery Disease,True,Dark degree page.,2022-12-12
+51,24,Depression,True,Opportunity various quality condition without.,2024-06-26
+52,24,Liver Disease,True,Soldier outside hand.,2024-07-25
+53,24,Peripheral Artery Disease,True,Purpose scientist indeed offer support.,2023-04-07
+54,25,Heart Disease,True,Attention Democrat product southern too cost.,2020-12-14
+55,25,Epilepsy,True,First choice score camera range work send.,2019-03-19
+56,25,Epilepsy,True,Life hear indicate official western.,2019-09-10
+57,26,Sleep Apnea,True,Study hear history behind side town.,2020-05-27
+58,26,Coronary Artery Disease,True,Relationship safe decide no myself.,2018-08-23
+59,27,Peptic Ulcer Disease,True,Tough keep good effect key employee her.,2023-04-25
+60,28,Anemia,True,Require guy operation join relationship.,2021-02-05
+61,28,Cancer,True,Role culture should.,2021-01-12
+62,29,Heart Disease,True,Each military bank support arm.,2022-07-30
+63,29,Depression,True,When next realize Congress.,2021-06-24
+64,30,Coronary Artery Disease,True,Bed action off figure note type daughter.,2022-11-19
+65,30,Liver Disease,True,Ever ten resource rather character control treat resource.,2021-09-30
+66,30,Tuberculosis,True,Design situation financial TV goal thank bill drug.,2024-05-02
+67,30,Anemia,True,Economy view month.,2021-05-12
+68,31,Sleep Apnea,True,Money stock official your similar wide player.,2022-05-25
+69,31,Stroke History,True,Story bed off behavior future talk success television.,2020-12-21
+70,32,Kidney Disease,True,Son while state leave.,2022-04-12
+71,33,Alzheimer’s Disease,True,Bed out specific scene service staff.,2019-12-31
+72,34,Hypothyroidism,True,Film sometimes career sell day.,2025-04-19
+73,34,Coronary Artery Disease,True,Local key to past.,2020-03-03
+74,34,Asthma,True,Whatever but board red everybody girl way despite.,2020-03-26
+75,35,Gastritis,True,Travel pattern agreement enough since no case until.,2022-10-31
+76,35,Tuberculosis,True,West out particularly popular.,2024-01-26
+77,36,Migraine,True,Few note finish military explain.,2021-07-24
+78,36,Liver Disease,True,Various data tell inside cost stock.,2025-04-15
+79,36,Anxiety Disorder,True,Rise deal partner travel environmental sign thought.,2023-01-22
+80,37,Liver Disease,True,Edge business see agree.,2023-03-15
+81,37,Depression,True,Ok both behavior others accept.,2020-05-17
+82,37,Arthritis,True,Wide security particularly generation.,2020-04-12
+83,37,Coronary Artery Disease,True,Tend sound stand produce each knowledge.,2022-05-26
+84,38,Kidney Disease,True,Reach quality evidence beat message trip.,2024-08-31
+85,38,Cancer,True,Phone job while in leave fill.,2020-04-30
+86,39,Cancer,True,Herself have become protect walk the provide north.,2020-10-16
+87,39,Gastritis,True,Skin six anyone look far mean guess.,2018-12-06
+88,39,Hyperthyroidism,True,Skin key mean might build happy small.,2023-11-09
+89,40,Epilepsy,True,Major kind nation artist include.,2018-10-21
+90,40,Kidney Disease,True,Our expert over bag fine begin suffer.,2022-10-22
+91,40,Arthritis,True,Toward specific century name respond.,2023-07-13
+92,40,Obesity,True,Wish suffer book work.,2024-09-14
+93,41,Asthma,True,Against ready song Mr my.,2024-12-05
+94,41,Parkinson’s Disease,True,Three responsibility voice truth effect care.,2023-01-16
+95,41,Hypertension,True,Strong her agency lot indeed.,2019-08-25
+96,41,Osteoporosis,True,If how often high decide understand policy.,2020-07-04
+97,42,Arthritis,True,Include pressure note staff usually yourself.,2023-08-24
+98,43,Alzheimer’s Disease,True,Food change base list.,2020-07-15
+99,43,Sleep Apnea,True,Mr result reflect probably yet.,2025-10-28
+100,44,Peptic Ulcer Disease,True,Brother first pick central born which leave.,2025-12-16
+101,44,Asthma,True,Probably leg take why.,2022-03-17
+102,44,Hypothyroidism,True,Ground contain rich home need language.,2024-11-16
+103,44,Hypothyroidism,True,Start should receive phone political.,2020-06-10
+104,45,Obesity,True,Significant half night manage.,2024-08-21
+105,45,Coronary Artery Disease,True,Go place garden use Mr benefit raise food.,2023-09-15
+106,45,Anemia,True,Center measure into.,2021-10-06
+107,45,Osteoporosis,True,Line on single win toward hour century time.,2025-05-08
+108,46,Sleep Apnea,True,Grow sit rather participant last bag inside.,2022-07-21
+109,47,Sleep Apnea,True,Husband others boy.,2024-02-14
+110,48,Parkinson’s Disease,True,Pm perhaps house cost.,2024-01-16
+111,48,Liver Disease,True,Red senior world view serve.,2025-11-29
+112,48,Stroke History,True,Husband production center year.,2021-09-28
+113,49,Chronic Kidney Disease,True,Series job reflect white use stock.,2021-07-16
+114,50,Heart Disease,True,Have environment even participant ago painting summer force.,2025-10-12
+115,50,Depression,True,Institution western speak arm design research institution.,2021-09-01
+116,50,Diabetes,True,Worry wait reach whole trial body water.,2025-07-22
+117,50,Cancer,True,Thing daughter respond option buy ever hand operation.,2023-09-16
+118,51,Obesity,True,Follow you season author send animal whole cut.,2025-01-07
+119,51,Parkinson’s Disease,True,Soon politics travel yard name.,2020-09-17
+120,51,Heart Disease,True,Article probably look federal ready though through audience.,2018-07-01
+121,52,Osteoporosis,True,Painting run second occur.,2020-10-18
+122,53,Peripheral Artery Disease,True,Health everything figure house feel some reality.,2025-06-13
+123,53,Liver Disease,True,Loss all style strategy.,2020-04-11
+124,53,Obesity,True,Also soon race.,2018-06-27
+125,54,Arthritis,True,Floor know operation seat end service thus.,2024-06-02
+126,54,Epilepsy,True,Training capital shake whose situation.,2021-12-18
+127,55,Anemia,True,Senior avoid argue seat bad western property.,2022-02-18
+128,55,Parkinson’s Disease,True,Cover thing story study citizen.,2022-07-14
+129,56,Peptic Ulcer Disease,True,Inside level again determine major prepare.,2020-08-26
+130,57,Anxiety Disorder,True,Already as walk find.,2019-12-07
+131,57,Diabetes,True,Movie effect record month.,2021-04-28
+132,57,COPD,True,Figure spring either whether Mrs.,2019-10-28
+133,58,Peripheral Artery Disease,True,Identify over school open fund political rather.,2018-07-30
+134,58,Alzheimer’s Disease,True,Now rock instead product.,2025-09-14
+135,58,Chronic Kidney Disease,True,New skin wrong dinner involve painting free.,2025-09-23
+136,59,Hypertension,True,Generation station kid could up.,2019-04-12
+137,59,Kidney Disease,True,Matter level practice.,2024-05-24
+138,60,Asthma,True,Government modern dog approach machine coach item performance.,2022-12-08
+139,61,Peripheral Artery Disease,True,Approach bed however material.,2021-03-13
+140,61,Asthma,True,Early it face understand might why.,2026-02-11
+141,61,Parkinson’s Disease,True,Film situation far card pattern.,2021-10-12
+142,61,Anemia,True,Adult ago our performance authority.,2018-04-20
+143,62,Arthritis,True,Bank institution economy.,2019-11-11
+144,62,Sleep Apnea,True,Outside those risk race.,2025-08-10
+145,63,Anemia,True,Little direction agency answer.,2021-09-09
+146,63,Heart Disease,True,Key almost individual similar let project site cultural.,2025-11-11
+147,63,Coronary Artery Disease,True,Fund respond generation body institution law.,2018-03-22
+148,63,Obesity,True,Job season suggest.,2022-11-15
+149,64,Migraine,True,Collection middle stop sound his themselves manager.,2021-10-05
+150,64,Anemia,True,Film buy option land.,2020-05-24
+151,64,Parkinson’s Disease,True,Someone admit authority race its director.,2022-10-28
+152,64,Cancer,True,Well benefit environment class kid.,2024-01-31
+153,65,Tuberculosis,True,Sit last free.,2024-12-21
+154,65,Chronic Kidney Disease,True,Staff produce under bag make.,2018-12-22
+155,66,Sleep Apnea,True,Leg pull movie ago.,2025-11-22
+156,66,Liver Disease,True,Might may opportunity north court.,2021-02-26
+157,66,Epilepsy,True,Address send fine white media.,2024-08-13
+158,66,Depression,True,Employee increase federal type degree personal born interesting.,2018-02-26
+159,67,COPD,True,Hair war you majority nation baby.,2022-06-10
+160,67,Kidney Disease,True,Start pass radio fly weight long line.,2022-11-24
+161,67,Kidney Disease,True,Teacher add anything write.,2021-01-21
+162,67,Asthma,True,Now learn billion finally cold.,2020-10-03
+163,68,Diabetes,True,Fine certainly myself society worry people picture.,2022-01-31
+164,68,Gastritis,True,Case make although especially past large.,2022-10-24
+165,68,Anemia,True,Pull perhaps many people.,2023-09-19
+166,69,Gastritis,True,Poor anyone environmental kid.,2021-09-28
+167,69,Kidney Disease,True,In but send over town community.,2020-08-27
+168,70,Asthma,True,Analysis machine past soon clear.,2023-08-31
+169,71,Kidney Disease,True,Same teacher prevent really garden same order group.,2021-10-12
+170,72,Hypertension,True,Something sense report food.,2019-04-14
+171,73,Asthma,True,Model now begin light represent.,2024-10-25
+172,73,Obesity,True,Relate author professor.,2020-08-03
+173,73,Kidney Disease,True,Evidence each thousand put cause quite.,2020-02-19
+174,74,Sleep Apnea,True,Before thing book make collection executive.,2019-12-23
+175,74,Anxiety Disorder,True,Whole draw their.,2023-11-26
+176,74,Migraine,True,Company then bit worker federal lawyer rate.,2025-04-24
+177,75,Cancer,True,Care still relate under.,2023-02-08
+178,75,Gastritis,True,Thousand international along foot sell.,2025-10-25
+179,76,Kidney Disease,True,West today very throughout moment building table animal.,2020-07-30
+180,76,Alzheimer’s Disease,True,Report tell red few standard economic politics.,2024-01-18
+181,76,Anxiety Disorder,True,Customer media according reveal.,2025-12-16
+182,76,Alzheimer’s Disease,True,Respond effort result sense.,2021-04-15
+183,77,Migraine,True,Impact history hit trade sit house media.,2025-05-01
+184,77,COPD,True,Remember house read vote care yes cup.,2021-11-10
+185,77,COPD,True,Anyone lay last.,2026-01-06
+186,77,Sleep Apnea,True,Science long official about theory.,2020-08-25
+187,78,Epilepsy,True,Community north back raise knowledge.,2019-12-06
+188,78,Hyperthyroidism,True,Throw power television argue act method.,2018-07-09
+189,78,Hyperthyroidism,True,Hear manage interview Congress billion six pressure.,2023-01-25
+190,78,Depression,True,Church sport office.,2024-10-23
+191,79,Sleep Apnea,True,Program local why discuss interesting my food coach.,2024-10-01
+192,80,Hypertension,True,Pm agent dinner pick political stock.,2025-06-19
+193,81,Cancer,True,Season myself against mouth describe total idea.,2024-03-28
+194,81,Stroke History,True,Side surface actually beyond ball oil garden.,2023-01-05
+195,81,Alzheimer’s Disease,True,Soldier ahead hair idea wife drive likely discuss.,2022-12-04
+196,81,Osteoporosis,True,Together address letter beyond.,2022-02-16
+197,82,Kidney Disease,True,Break evidence you get every both.,2019-02-17
+198,83,Migraine,True,Perform issue husband continue describe animal might.,2021-04-04
+199,83,Anemia,True,Through difficult really point culture.,2018-02-23
+200,84,Arthritis,True,Fast of land more.,2022-04-15
+201,84,Hyperthyroidism,True,Maybe town turn news much truth lead.,2018-11-04
+202,84,Heart Disease,True,Value eight owner his point election wall.,2020-03-11
+203,84,Coronary Artery Disease,True,Wait senior focus system hospital around.,2019-08-09
+204,85,Kidney Disease,True,Individual station too cause response respond.,2023-01-29
+205,85,Osteoporosis,True,When market green painting.,2023-08-23
+206,85,Asthma,True,Recent prepare account whom.,2022-03-14
+207,85,Depression,True,Likely couple morning through.,2024-02-13
+208,86,Hypertension,True,Method floor meet sister bank among impact.,2021-10-27
+209,87,Asthma,True,Describe teach director those experience four why start.,2022-01-26
+210,88,Heart Disease,True,Note keep government action ball response interesting.,2018-12-29
+211,88,Hyperthyroidism,True,Home budget today rich north involve.,2023-04-16
+212,89,Anxiety Disorder,True,Lot since yard song worker allow.,2020-04-02
+213,89,Migraine,True,Machine article debate can finally own.,2020-07-27
+214,89,Osteoporosis,True,Industry film six.,2023-02-19
+215,89,Hypothyroidism,True,College gas clearly during.,2019-09-10
+216,90,Heart Disease,True,Toward Mr notice bit talk deal.,2021-12-19
+217,91,Diabetes,True,Magazine different heart between cultural really determine across.,2023-08-05
+218,91,Hypothyroidism,True,Kid growth left her.,2021-05-24
+219,91,Coronary Artery Disease,True,Such food institution enter.,2022-04-13
+220,91,Alzheimer’s Disease,True,Let gun exactly director party unit finally.,2018-08-14
+221,92,Chronic Kidney Disease,True,How account summer laugh almost.,2025-12-07
+222,92,Hyperthyroidism,True,Board body reflect common college.,2024-07-29
+223,92,Tuberculosis,True,Foot career top skin.,2019-05-31
+224,92,Cancer,True,Step service reality ok modern tend view democratic.,2025-11-11
+225,93,Arthritis,True,Thought class sport various source day free wonder.,2018-12-05
+226,93,Migraine,True,Manage another individual age.,2020-05-29
+227,93,Chronic Kidney Disease,True,Remain live practice computer.,2021-07-15
+228,93,Migraine,True,Almost artist onto kind from ten parent.,2021-02-22
+229,94,Gastritis,True,Into such nature fire.,2018-10-19
+230,95,Cancer,True,Eye however with agency water now when.,2024-10-12
+231,96,Hypertension,True,American hold toward race significant get.,2025-01-13
+232,96,Hypertension,True,Late eight order we.,2020-05-18
+233,96,Gastritis,True,Everything only since successful.,2019-10-23
+234,97,Obesity,True,Probably thing free notice.,2019-08-14
+235,97,Osteoporosis,True,Company consumer issue wide author.,2025-10-09
+236,97,Obesity,True,End action already sound idea art.,2025-04-30
+237,97,Heart Disease,True,Enter near use deep bad president.,2025-04-22
+238,98,Obesity,True,Not few allow medical bring easy.,2023-06-02
+239,99,Osteoporosis,True,Those admit last effect almost man act no.,2024-08-29
+240,100,Asthma,True,Cut loss development response.,2024-09-05
+241,100,Peptic Ulcer Disease,True,Lay name push kitchen either experience court.,2024-02-09
+242,101,Sleep Apnea,True,Cell call able nation learn house conference.,2019-07-22
+243,102,Hypothyroidism,True,Treatment trip performance bit.,2019-08-16
+244,102,COPD,True,College financial front.,2023-01-14
+245,103,Gastritis,True,Information debate down strong station couple past.,2024-02-19
+246,103,Peptic Ulcer Disease,True,Including tonight matter few billion parent movie.,2019-06-20
+247,104,Peptic Ulcer Disease,True,Yes baby rise create laugh every indicate.,2026-02-07
+248,105,Hyperthyroidism,True,Arm process do rich.,2020-07-06
+249,106,Coronary Artery Disease,True,Himself claim big small.,2019-09-01
+250,106,Migraine,True,Since reveal whose news.,2024-05-29
+251,106,Sleep Apnea,True,Cause contain maybe still message figure.,2024-05-10
+252,107,Kidney Disease,True,Sound born better soon finally idea.,2018-03-20
+253,107,Coronary Artery Disease,True,List very among before.,2024-01-24
+254,107,Hypothyroidism,True,Reason yourself away president provide exactly stop.,2021-05-12
+255,108,Sleep Apnea,True,Begin against quality.,2024-08-01
+256,108,Liver Disease,True,Friend network commercial project do yes modern.,2025-06-21
+257,109,Depression,True,Law bit gas environment model church.,2022-12-27
+258,109,Stroke History,True,Many keep line boy through heavy.,2025-06-02
+259,109,Parkinson’s Disease,True,Energy discover executive best physical food pattern.,2018-03-24
+260,110,Diabetes,True,Early activity face happy role series.,2018-12-30
+261,111,Peptic Ulcer Disease,True,Experience include couple great candidate successful.,2021-02-07
+262,111,Gastritis,True,Together president figure service beautiful eight.,2021-04-19
+263,111,COPD,True,Keep ok analysis.,2019-09-04
+264,111,Asthma,True,Form agent store song.,2021-11-25
+265,112,Obesity,True,By born both age part general deep.,2024-02-23
+266,112,Coronary Artery Disease,True,While fire act put start.,2020-04-27
+267,113,Epilepsy,True,Least prepare modern up.,2022-11-21
+268,113,Asthma,True,Movement media effect.,2023-12-27
+269,114,Epilepsy,True,Congress everyone friend bill could college firm.,2025-03-29
+270,114,Chronic Kidney Disease,True,Number now serious standard approach your.,2021-09-04
+271,115,Depression,True,Describe attention return dream other woman describe blood.,2020-08-23
+272,115,Peripheral Artery Disease,True,Social across social stop better life.,2022-11-26
+273,116,Peptic Ulcer Disease,True,Consumer hold consider field sure.,2025-09-01
+274,116,Alzheimer’s Disease,True,Yeah decision choice lose student they.,2025-03-19
+275,116,Liver Disease,True,Knowledge season allow.,2023-10-28
+276,117,Sleep Apnea,True,Available together blue produce focus sell.,2019-08-08
+277,118,Sleep Apnea,True,Road wall area opportunity sit.,2020-07-16
+278,118,COPD,True,Open little worker street fear law.,2026-02-04
+279,118,Arthritis,True,Likely south garden shake.,2024-06-20
+280,119,COPD,True,Analysis travel education issue.,2024-09-13
+281,119,COPD,True,Laugh politics for true size mother really.,2022-11-20
+282,119,Cancer,True,Society decade star culture clear than citizen yeah.,2020-02-23
+283,120,Coronary Artery Disease,True,Budget mouth whom feel respond allow response.,2019-03-07
+284,120,Chronic Kidney Disease,True,Upon rate someone forward scientist teach old.,2018-09-11
+285,121,Tuberculosis,True,Quickly character year.,2020-11-23
+286,121,Stroke History,True,Especially against likely tough hot speak condition.,2024-07-15
+287,122,Sleep Apnea,True,Partner fish need short read smile.,2021-01-22
+288,122,Liver Disease,True,Week billion describe forget report.,2022-10-20
+289,123,Obesity,True,Four between vote manager certain floor life.,2018-03-09
+290,123,Anxiety Disorder,True,Price dinner just subject.,2023-05-07
+291,123,Coronary Artery Disease,True,American their significant whose democratic machine join.,2025-08-29
+292,124,Asthma,True,Industry agent protect city wife.,2024-01-23
+293,125,Peripheral Artery Disease,True,Firm whom kind history agent follow.,2025-09-25
+294,125,Coronary Artery Disease,True,Total want different here.,2022-11-15
+295,125,Hypertension,True,Institution provide ability summer unit budget.,2019-06-20
+296,125,Diabetes,True,They direction how usually property president.,2021-09-19
+297,126,Parkinson’s Disease,True,Together investment fish increase.,2022-02-23
+298,126,Arthritis,True,Source learn marriage right analysis happy.,2021-10-21
+299,126,Liver Disease,True,Bar scene single though meet.,2020-12-05
+300,127,Heart Disease,True,Require us indeed among also create their.,2025-07-16
+301,127,Cancer,True,State happen plan skill.,2025-10-29
+302,127,Depression,True,Fact born head enjoy do by.,2023-06-20
+303,128,Anemia,True,North strong recently law car upon age.,2018-10-19
+304,128,Diabetes,True,Arm shoulder present husband I mouth green.,2021-05-11
+305,128,COPD,True,Thank for the.,2019-03-09
+306,128,Asthma,True,Compare action prove cover.,2024-02-15
+307,129,Anemia,True,City husband cup nor one public.,2023-03-06
+308,129,Hypertension,True,Cold forward boy require south.,2020-03-26
+309,130,Gastritis,True,Main face build alone reveal mention agreement.,2022-02-10
+310,130,Anemia,True,Wonder instead story same head spring spring manager.,2023-09-27
+311,130,Arthritis,True,Successful any society consider man.,2018-02-22
+312,131,Arthritis,True,Several pass and above follow particular listen.,2025-01-18
+313,131,Hypertension,True,Federal easy establish recognize cost me.,2020-12-05
+314,131,Chronic Kidney Disease,True,Assume piece let bank wide rather.,2023-01-11
+315,131,Epilepsy,True,Understand section manager public type ability.,2022-06-05
+316,132,Epilepsy,True,Spend behind explain class teach probably.,2024-12-12
+317,133,Sleep Apnea,True,Mean sign may consider job continue.,2019-12-02
+318,133,Kidney Disease,True,Training soldier message agreement conference.,2023-06-03
+319,134,Epilepsy,True,North any resource star final.,2021-12-04
+320,135,Peptic Ulcer Disease,True,Size beat game send similar.,2025-07-25
+321,135,Cancer,True,Cultural professor answer teach might by agreement.,2023-07-28
+322,135,Arthritis,True,Possible science data.,2020-03-28
+323,135,Kidney Disease,True,Strategy hospital live line foot allow.,2022-02-03
+324,136,Alzheimer’s Disease,True,Sit computer artist occur company cover.,2020-01-24
+325,136,Alzheimer’s Disease,True,Because leader by whatever.,2021-03-02
+326,137,Hyperthyroidism,True,So it might rise.,2022-04-03
+327,137,Diabetes,True,How take box happy direction into.,2019-04-13
+328,138,Cancer,True,Something loss medical son one institution good.,2022-05-25
+329,138,Stroke History,True,Fact great word spring still.,2025-10-12
+330,139,Alzheimer’s Disease,True,Number direction decision tell fast hope reason middle.,2019-08-03
+331,139,Sleep Apnea,True,Service particular whole marriage.,2019-04-21
+332,139,Osteoporosis,True,Soon pressure maintain television necessary.,2020-06-28
+333,139,Cancer,True,House much vote become.,2023-07-31
+334,140,Coronary Artery Disease,True,Service prepare exist safe learn land art.,2020-04-13
+335,140,Heart Disease,True,Ever another happen Mr indicate treatment per.,2023-11-01
+336,141,Hypothyroidism,True,Real agent activity benefit head third.,2020-04-30
+337,142,Osteoporosis,True,Nice professor move just reduce despite us.,2022-09-19
+338,143,Kidney Disease,True,Entire nation former instead.,2026-02-09
+339,143,Migraine,True,Gun middle skill.,2023-02-15
+340,143,Peripheral Artery Disease,True,Mission small art own operation network mother.,2022-10-23
+341,143,Depression,True,On or if do responsibility.,2025-08-15
+342,144,Chronic Kidney Disease,True,Guy mean benefit practice.,2022-05-06
+343,144,Peripheral Artery Disease,True,See energy yard.,2022-04-27
+344,144,Alzheimer’s Disease,True,Result toward or represent once.,2023-06-21
+345,145,Kidney Disease,True,Maybe peace maintain oil.,2025-07-14
+346,145,Diabetes,True,Clear age see free identify.,2023-03-04
+347,146,Hypothyroidism,True,Second heart involve successful.,2022-05-20
+348,146,Stroke History,True,Difficult interest Mr western.,2020-08-01
+349,147,Osteoporosis,True,Positive art and off.,2018-03-01
+350,147,Asthma,True,Agent big for least prove fish.,2021-10-09
+351,147,Parkinson’s Disease,True,Part newspaper how wonder surface.,2023-09-19
+352,148,Epilepsy,True,Various since usually responsibility while however ever.,2025-06-07
+353,148,Liver Disease,True,Attorney produce pass degree itself us rather brother.,2020-04-20
+354,148,Obesity,True,Raise table increase kind institution.,2018-11-14
+355,149,Sleep Apnea,True,Real husband item huge.,2021-08-23
+356,149,Peripheral Artery Disease,True,Receive never service trade little activity nearly type.,2022-10-18
+357,149,Anemia,True,Expert training century face learn I speak seek.,2018-12-19
+358,149,Stroke History,True,Hundred tonight memory in director young recent.,2019-06-07
+359,150,COPD,True,Senior cause picture eat hear.,2019-06-22
+360,151,Heart Disease,True,Difference important carry should much arm.,2022-12-16
+361,151,Gastritis,True,Foreign organization trade plan sure.,2021-04-04
+362,151,Coronary Artery Disease,True,Hour get something every where.,2024-09-26
+363,152,COPD,True,Speech though brother even lose movie agreement.,2026-01-11
+364,153,Epilepsy,True,Crime thought at successful.,2018-02-16
+365,153,Cancer,True,Energy back go poor memory brother so.,2023-06-26
+366,153,Alzheimer’s Disease,True,Each participant especially sell appear develop.,2023-07-25
+367,153,Stroke History,True,Suddenly mean age cut blue according.,2025-01-22
+368,154,Peptic Ulcer Disease,True,Specific simple international me open sort.,2020-05-08
+369,154,Obesity,True,Food truth war more usually little career.,2024-10-18
+370,154,COPD,True,Own any small interview win to ten.,2018-08-20
+371,154,Hypothyroidism,True,Way article oil fish road pressure decision religious.,2023-11-29
+372,155,Coronary Artery Disease,True,Health likely fall home accept team.,2021-05-11
+373,155,Hypertension,True,Arrive guy suggest yourself add ever.,2020-06-13
+374,156,Diabetes,True,Check story effort doctor.,2018-11-04
+375,156,Obesity,True,Agree along probably building hard fear carry.,2019-12-03
+376,156,Alzheimer’s Disease,True,Type himself involve huge.,2025-08-23
+377,156,Anemia,True,Man position behavior station.,2018-05-13
+378,157,Epilepsy,True,Production issue range debate.,2020-05-05
+379,157,Hyperthyroidism,True,And prevent success push shake organization here.,2019-07-27
+380,158,Sleep Apnea,True,Example reason political about or.,2022-01-04
+381,159,Peptic Ulcer Disease,True,Approach five kid knowledge.,2020-06-21
+382,159,Stroke History,True,Over better total management anything hand career success.,2025-06-30
+383,159,Sleep Apnea,True,Camera hotel run huge economic agreement.,2025-06-15
+384,160,Cancer,True,Turn chance fact try service deal.,2023-11-28
+385,161,Obesity,True,Citizen own fast sometimes already.,2022-05-21
+386,161,Chronic Kidney Disease,True,Knowledge friend exist walk east.,2021-01-07
+387,161,Sleep Apnea,True,Staff affect return use chair control.,2023-07-25
+388,162,Stroke History,True,Project short television.,2020-02-09
+389,162,Hypothyroidism,True,Product year situation great under claim.,2018-11-15
+390,162,Tuberculosis,True,Senior catch window necessary.,2022-11-02
+391,162,Chronic Kidney Disease,True,Run family describe bank.,2021-11-27
+392,163,Migraine,True,Within think service turn detail yourself bring.,2025-01-21
+393,163,Hyperthyroidism,True,Against sure reflect relate product himself.,2024-08-18
+394,164,Sleep Apnea,True,Put performance television find boy level within.,2020-11-28
+395,164,Cancer,True,Low yourself city various well.,2018-08-16
+396,164,Heart Disease,True,Senior heart you not gas after.,2023-12-17
+397,164,Peptic Ulcer Disease,True,True write middle strategy over.,2023-11-17
+398,165,Hypothyroidism,True,Leader ever three road blood.,2020-02-12
+399,165,Anemia,True,Pay song decide research movement agreement.,2018-09-22
+400,165,Peripheral Artery Disease,True,Thing matter blood produce hundred do.,2024-12-06
+401,166,Chronic Kidney Disease,True,Account surface lose increase.,2024-05-01
+402,167,Migraine,True,Type should alone middle appear experience.,2024-05-30
+403,167,Hyperthyroidism,True,Close strategy card child glass court responsibility.,2025-04-27
+404,167,Alzheimer’s Disease,True,Letter activity clearly positive.,2019-11-27
+405,168,Depression,True,Test always option hold.,2019-10-07
+406,168,Depression,True,Tree away unit different money write.,2023-04-21
+407,168,Depression,True,Include above former up.,2018-05-06
+408,169,Obesity,True,Put positive least recognize southern performance paper.,2019-05-14
+409,169,Anxiety Disorder,True,Food medical goal instead computer hospital.,2022-02-12
+410,170,Sleep Apnea,True,Its bring program.,2020-07-03
+411,170,Asthma,True,Run different career direction window wind plan already.,2018-06-01
+412,171,Obesity,True,Push none growth anyone as.,2025-05-07
+413,171,Sleep Apnea,True,Land deep party according.,2019-12-07
+414,171,Liver Disease,True,Worry test race break or the figure sell.,2025-01-15
+415,172,Asthma,True,Media reveal health unit.,2018-02-18
+416,172,Peripheral Artery Disease,True,Woman apply run maintain moment.,2021-06-04
+417,172,Parkinson’s Disease,True,Different catch early improve nature reach chair.,2024-01-09
+418,173,Sleep Apnea,True,Child of attorney here.,2021-11-09
+419,173,Chronic Kidney Disease,True,Pattern thought act large present or you.,2018-11-25
+420,174,Alzheimer’s Disease,True,Detail bed pay seat writer movement other.,2020-06-20
+421,174,Migraine,True,Actually message who executive.,2025-03-06
+422,175,Diabetes,True,Husband near yes attention.,2021-09-19
+423,175,Hypertension,True,Money fact letter tree drop.,2023-03-25
+424,176,Anxiety Disorder,True,Political off point.,2023-04-18
+425,176,Peptic Ulcer Disease,True,Green choose building their whom would year.,2021-02-05
+426,177,Depression,True,Different pull morning without technology floor.,2024-11-04
+427,178,Liver Disease,True,Eat reality as.,2024-03-27
+428,178,Gastritis,True,Week what money.,2021-11-21
+429,178,Migraine,True,Administration speak shoulder series goal.,2024-07-24
+430,178,Tuberculosis,True,On choose option gas know near.,2023-01-29
+431,179,Anxiety Disorder,True,Nature owner system.,2018-05-13
+432,179,Hypothyroidism,True,Field ground scene sort try.,2021-02-04
+433,179,Kidney Disease,True,Those them now.,2020-08-24
+434,179,Arthritis,True,Senior industry discussion area.,2023-07-24
+435,180,Parkinson’s Disease,True,Store goal father yes yet despite conference.,2023-06-13
+436,181,Parkinson’s Disease,True,Political wrong again full feeling.,2019-01-22
+437,182,Kidney Disease,True,Over allow whose kid.,2022-05-09
+438,182,Heart Disease,True,Measure forward one chance.,2024-12-15
+439,182,Alzheimer’s Disease,True,Single building chance try food.,2025-08-03
+440,182,Tuberculosis,True,Raise total truth cold data attention television.,2021-07-05
+441,183,Hypertension,True,Especially main year partner gun require and.,2024-06-28
+442,183,Anemia,True,Speak as town force born character go.,2020-06-09
+443,183,Kidney Disease,True,Black large traditional arm.,2023-11-18
+444,183,Osteoporosis,True,Federal record would develop then right political understand.,2022-11-04
+445,184,Depression,True,As and one tonight.,2024-08-14
+446,185,Alzheimer’s Disease,True,More though edge left contain hot.,2020-05-30
+447,185,Depression,True,Attorney cause stage similar party.,2021-01-29
+448,186,Parkinson’s Disease,True,Crime similar would rather course.,2020-10-24
+449,186,Depression,True,Detail firm operation among.,2025-07-07
+450,186,Peptic Ulcer Disease,True,Garden answer kid be evening member affect.,2023-08-01
+451,187,Peripheral Artery Disease,True,Democrat plant sport better.,2021-01-30
+452,187,Anemia,True,About business staff field break.,2025-02-12
+453,187,Depression,True,Certain inside series.,2026-01-10
+454,187,Heart Disease,True,Bar your whatever right rock pattern front even.,2022-07-15
+455,188,Depression,True,Senior good in future wide.,2019-05-13
+456,188,Coronary Artery Disease,True,Enjoy with test cut individual.,2020-05-15
+457,188,Parkinson’s Disease,True,Past common approach reduce.,2023-09-01
+458,188,Kidney Disease,True,Coach yes also away business.,2022-06-04
+459,189,Parkinson’s Disease,True,Trouble movie eat sing.,2022-12-24
+460,189,Parkinson’s Disease,True,Set young suddenly black.,2023-12-23
+461,189,Obesity,True,Type night prove capital concern control.,2024-07-08
+462,190,Liver Disease,True,Listen late positive without.,2024-07-26
+463,190,Kidney Disease,True,Throw authority exist wish affect whose.,2018-11-25
+464,190,Coronary Artery Disease,True,Firm certain take let several appear.,2023-01-30
+465,190,Depression,True,Religious enter opportunity less plant go approach.,2019-09-11
+466,191,Tuberculosis,True,Level traditional decision main also everything.,2021-03-20
+467,192,Kidney Disease,True,Left enough section check.,2024-03-15
+468,192,Coronary Artery Disease,True,Current seem state finish.,2021-06-12
+469,192,Stroke History,True,Consumer church director answer.,2021-05-12
+470,193,Anemia,True,House similar plan wrong seem.,2025-09-03
+471,193,Asthma,True,Reduce push record kind miss early.,2019-01-16
+472,193,Arthritis,True,Spring learn cup area stage them.,2020-01-14
+473,194,Kidney Disease,True,Response relationship nice west avoid analysis.,2022-02-27
+474,194,Hypothyroidism,True,When let end move.,2025-11-11
+475,195,Tuberculosis,True,Watch protect energy course.,2018-08-19
+476,195,Migraine,True,Stock here up second join debate.,2021-01-11
+477,196,Hyperthyroidism,True,Per face ahead party clearly second unit affect.,2022-09-05
+478,197,Stroke History,True,Note car than year maybe.,2018-08-17
+479,197,Anemia,True,Pattern base may movie character.,2018-10-21
+480,197,Depression,True,Someone second take central experience fast.,2022-11-19
+481,197,Hyperthyroidism,True,Pretty know let couple stay old lay.,2024-10-20
+482,198,Migraine,True,Bank do stay cold do prove.,2019-11-03
+483,199,Hypothyroidism,True,Painting leg offer religious service get tax.,2018-06-02
+484,199,Parkinson’s Disease,True,Several place draw her not process.,2023-08-05
+485,199,Gastritis,True,Product laugh budget this foreign thank he.,2025-03-13
+486,199,Tuberculosis,True,Spring community your.,2025-12-16
+487,200,Osteoporosis,True,Serve control billion source year.,2019-05-08
