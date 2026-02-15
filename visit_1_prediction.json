@@ -1,0 +1,39 @@
+{
+  "risk_level": "Medium",
+  "risk_score": 0.36,
+  "primary_department": "General Medicine",
+  "department_scores": {
+    "Emergency": 0.55,
+    "Cardiology": 0.3,
+    "Neurology": 0.25,
+    "Respiratory": 0.05,
+    "Orthopedics": 0.05,
+    "General Medicine": 0.65
+  },
+  "explainability": {
+    "risk_factors": {
+      "critical_symptoms": [
+        "neck pain (severity 5)"
+      ],
+      "cardiac_history": [
+        "Heart Disease"
+      ]
+    },
+    "department_reasoning": {
+      "Emergency": "Critical symptoms present"
+    },
+    "score_breakdown": {
+      "symptom_score": 17,
+      "vitals_score": 3,
+      "history_score": 16,
+      "age_score": 0,
+      "total": 36
+    }
+  },
+  "confidence": {
+    "overall": 0.64,
+    "data_completeness": 1.0,
+    "decision_clarity": 0.1,
+    "has_critical_indicators": true
+  }
+}

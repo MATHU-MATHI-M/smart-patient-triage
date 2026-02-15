@@ -1,0 +1,45 @@
+{
+  "risk_level": "High",
+  "risk_score": 0.68,
+  "primary_department": "Cardiology",
+  "department_scores": {
+    "Emergency": 0.4,
+    "Cardiology": 0.45,
+    "Neurology": 0.3,
+    "Respiratory": 0.05,
+    "Orthopedics": 0.39999999999999997,
+    "General Medicine": 0.4
+  },
+  "explainability": {
+    "risk_factors": {
+      "critical_symptoms": [
+        "loss of consciousness (CRITICAL)",
+        "chest pain (CARDIAC ALERT)"
+      ],
+      "abnormal_vitals": [
+        "Temp 102.0\u00b0F (HIGH FEVER)"
+      ],
+      "neurological_history": [
+        "Alzheimer\u2019S Disease"
+      ],
+      "age_factor": "76 years (elderly)"
+    },
+    "department_reasoning": {
+      "Cardiology": "Chest pain reported",
+      "Emergency": "Critical symptoms present"
+    },
+    "score_breakdown": {
+      "symptom_score": 40,
+      "vitals_score": 8,
+      "history_score": 13,
+      "age_score": 7,
+      "total": 68
+    }
+  },
+  "confidence": {
+    "overall": 0.62,
+    "data_completeness": 1.0,
+    "decision_clarity": 0.05,
+    "has_critical_indicators": true
+  }
+}

@@ -12,8 +12,8 @@
       "Emergency": 0.85,
       "Cardiology": 0.02,
       "General Medicine": 0.01,
-      "Neurology": 0.45,
-      "Orthopedics": 0.4,
+      "Neurology": 0.75,
+      "Orthopedics": 0.65,
       "Respiratory": 0.005
     },
     "explainability": {
@@ -34,7 +34,7 @@
     "primary_department": "Emergency",
     "department_scores": {
       "Emergency": 0.85,
-      "Cardiology": 0.4,
+      "Cardiology": 0.8,
       "General Medicine": 0.01,
       "Neurology": 0.01,
       "Orthopedics": 0.005,
@@ -59,11 +59,11 @@
     "primary_department": "Emergency",
     "department_scores": {
       "Emergency": 0.85,
-      "Cardiology": 0.4,
+      "Cardiology": 0.75,
       "General Medicine": 0.01,
       "Neurology": 0.01,
       "Orthopedics": 0.005,
-      "Respiratory": 0.4
+      "Respiratory": 0.7
     },
     "explainability": {
       "max_severity": 4,

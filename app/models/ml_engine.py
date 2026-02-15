@@ -179,43 +179,43 @@ class MLEngine:
         dept_scores = prediction['department_scores']
         chief_complaint = str(patient_data.get('chief_complaint', '')).lower()
         
-        # Rule 1: Chest pain → Add Cardiology
+        # Rule 1: Chest pain → Add Cardiology (HIGH priority for cardiac issues)
         if patient_data.get('chest_pain_severity', 0) >= 3:
             if 'Cardiology' not in recommended_depts:
                 recommended_depts.append('Cardiology')
-                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.80)
         
-        # Rule 2: Head trauma/severe neurological → Add Neurology
+        # Rule 2: Head trauma/severe neurological → Add Neurology (HIGH priority for brain/neuro)
         if (patient_data.get('max_severity', 0) >= 4 and 
             any(keyword in chief_complaint for keyword in ['head', 'skull', 'brain', 'seizure', 'stroke', 'neuro', 'consciousness'])):
             if 'Neurology' not in recommended_depts:
                 recommended_depts.append('Neurology')
-                dept_scores['Neurology'] = max(dept_scores.get('Neurology', 0), 0.45)
+                dept_scores['Neurology'] = max(dept_scores.get('Neurology', 0), 0.75)
         
-        # Rule 3: Respiratory symptoms → Add Respiratory
+        # Rule 3: Respiratory symptoms → Add Respiratory (HIGH priority for breathing issues)
         if patient_data.get('respiratory_history', 0) == 1:
             if 'Respiratory' not in recommended_depts:
                 recommended_depts.append('Respiratory')
-                dept_scores['Respiratory'] = max(dept_scores.get('Respiratory', 0), 0.40)
+                dept_scores['Respiratory'] = max(dept_scores.get('Respiratory', 0), 0.70)
         
-        # Rule 4: Cardiac history + elevated vitals → Add Cardiology
+        # Rule 4: Cardiac history + elevated vitals → Add Cardiology (HIGH priority)
         if (patient_data.get('cardiac_history', 0) == 1 and 
             (patient_data.get('bp_systolic', 120) >= 160 or patient_data.get('heart_rate', 80) >= 100)):
             if 'Cardiology' not in recommended_depts:
                 recommended_depts.append('Cardiology')
-                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.75)
         
-        # Rule 5: Trauma/fracture → Add Orthopedics
+        # Rule 5: Trauma/fracture → Add Orthopedics (MEDIUM-HIGH priority)
         if any(keyword in chief_complaint for keyword in ['fracture', 'broken', 'bone', 'joint', 'trauma']):
             if 'Orthopedics' not in recommended_depts and 'Emergency' in recommended_depts:
                 recommended_depts.append('Orthopedics')
-                dept_scores['Orthopedics'] = max(dept_scores.get('Orthopedics', 0), 0.40)
+                dept_scores['Orthopedics'] = max(dept_scores.get('Orthopedics', 0), 0.65)
         
-        # Rule 6: Multiple chronic conditions → Add General Medicine
+        # Rule 6: Multiple chronic conditions → Add General Medicine (MEDIUM priority)
         if patient_data.get('chronic_conditions', 0) >= 2 and len(recommended_depts) == 1:
             if 'General Medicine' not in recommended_depts:
                 recommended_depts.append('General Medicine')
-                dept_scores['General Medicine'] = max(dept_scores.get('General Medicine', 0), 0.35)
+                dept_scores['General Medicine'] = max(dept_scores.get('General Medicine', 0), 0.50)
         
         # Update primary department after adding new departments
         prediction['primary_department'] = max(dept_scores.items(), key=lambda x: x[1])[0]

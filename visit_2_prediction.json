@@ -1,0 +1,43 @@
+{
+  "risk_level": "Medium",
+  "risk_score": 0.5,
+  "primary_department": "Neurology",
+  "department_scores": {
+    "Emergency": 0.55,
+    "Cardiology": 0.45,
+    "Neurology": 0.75,
+    "Respiratory": 0.05,
+    "Orthopedics": 0.05,
+    "General Medicine": 0.2
+  },
+  "explainability": {
+    "risk_factors": {
+      "critical_symptoms": [
+        "seizures (NEURO ALERT)",
+        "headache (severity 5)",
+        "chest pain (CARDIAC ALERT)"
+      ],
+      "abnormal_vitals": [
+        "Temp 100.6\u00b0F (Fever)"
+      ]
+    },
+    "department_reasoning": {
+      "Neurology": "Seizures present + Neurological symptoms",
+      "Emergency": "Critical symptoms present",
+      "Cardiology": "Chest pain reported"
+    },
+    "score_breakdown": {
+      "symptom_score": 40,
+      "vitals_score": 8,
+      "history_score": 2,
+      "age_score": 0,
+      "total": 50
+    }
+  },
+  "confidence": {
+    "overall": 0.68,
+    "data_completeness": 1.0,
+    "decision_clarity": 0.2,
+    "has_critical_indicators": true
+  }
+}

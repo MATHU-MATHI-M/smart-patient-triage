@@ -16,7 +16,7 @@ class Database:
     
     @classmethod
     def get_visit_features(cls, visit_id: int) -> dict:
-        """REAL DB queries - fetch actual visit data."""
+        """Fetch complete visit data for rule-based triage engine"""
         client = cls.get_client()
         
         # Get visit basics
@@ -24,11 +24,7 @@ class Database:
         visit = response.data
         
         if not visit:
-            return {
-                'visit_id': visit_id, 'age': 40, 'heart_rate': 80, 'bp_systolic': 120,
-                'bp_diastolic': 80, 'temperature': 98.6, 'chest_pain_severity': 0,
-                'max_severity': 1, 'symptom_count': 1, 'chief_complaint': 'general'
-            }
+            raise ValueError(f"Visit {visit_id} not found")
         
         # Patient info
         patient_response = client.table('patients').select('age, gender').eq('patient_id', visit['patient_id']).single().execute()
@@ -36,59 +32,43 @@ class Database:
         
         # Vitals
         vitals_response = client.table('vitals').select('bp_systolic, bp_diastolic, heart_rate, temperature').eq('visit_id', visit_id).execute()
-        vitals = vitals_response.data[0] if vitals_response.data else {}
+        vitals_data = vitals_response.data[0] if vitals_response.data else {}
         
-        # Symptoms
-        symptoms_response = client.table('visit_symptoms').select('symptom_name, severity_score').eq('visit_id', visit_id).execute()
-        symptoms = symptoms_response.data
-        chest_pain_sev = max([s['severity_score'] for s in symptoms if 'chest' in s['symptom_name'].lower()] or [0])
-        max_sev = max([s['severity_score'] for s in symptoms] or [1])
-        symptom_count = len(symptoms) or 1
+        # Symptoms (full array)
+        symptoms_response = client.table('visit_symptoms').select('symptom_name, severity_score, duration').eq('visit_id', visit_id).execute()
+        symptoms = symptoms_response.data or []
         
-        # Medical History - FETCH FROM DATABASE
+        # Medical History (full array)
         patient_id = visit['patient_id']
-        history_response = client.table('patient_medical_history').select('condition_name, is_chronic').eq('patient_id', patient_id).execute()
+        history_response = client.table('patient_medical_history').select('condition_name, is_chronic, diagnosis_date').eq('patient_id', patient_id).execute()
         medical_history = history_response.data or []
         
-        # Count comorbidities and specific conditions
-        comorbidities_count = len(medical_history)
-        chronic_conditions = sum(1 for h in medical_history if h.get('is_chronic', False))
-        
-        # Check for specific conditions (case-insensitive)
-        conditions_lower = [h.get('condition_name', '').lower() for h in medical_history]
-        cardiac_history = 1 if any('cardiac' in c or 'heart' in c or 'hypertension' in c for c in conditions_lower) else 0
-        diabetes_status = 2 if any('diabetes' in c for c in conditions_lower) else 0  # 2 = has diabetes
-        respiratory_history = 1 if any('asthma' in c or 'copd' in c or 'respiratory' in c for c in conditions_lower) else 0
-        
+        # Return structured data for rule engine
         return {
             'visit_id': visit_id,
             'age': patient.get('age', 40),
             'gender': patient.get('gender', 'M'),
-            'bp_systolic': vitals.get('bp_systolic', 120),
-            'bp_diastolic': vitals.get('bp_diastolic', 80),
-            'heart_rate': vitals.get('heart_rate', 80),
-            'temperature': float(vitals.get('temperature', 98.6)),
             'chief_complaint': visit.get('chief_complaint', 'general'),
-            'chest_pain_severity': chest_pain_sev,
-            'max_severity': max_sev,
-            'symptom_count': symptom_count,
-            'comorbidities_count': comorbidities_count,
-            'cardiac_history': cardiac_history,
-            'diabetes_status': diabetes_status,
-            'respiratory_history': respiratory_history,
-            'chronic_conditions': chronic_conditions
+            'vitals': {
+                'bp_systolic': vitals_data.get('bp_systolic', 120),
+                'bp_diastolic': vitals_data.get('bp_diastolic', 80),
+                'heart_rate': vitals_data.get('heart_rate', 80),
+                'temperature': float(vitals_data.get('temperature', 98.6))
+            },
+            'symptoms': symptoms,
+            'medical_history': medical_history
         }
 
     @classmethod
     def save_prediction(cls, visit_id: int, prediction: dict) -> dict:
-        """Save ML prediction to Supabase."""
+        """Save triage prediction to Supabase."""
         client = cls.get_client()
         
         data = {
             'visit_id': visit_id,
             'risk_level': prediction['risk_level'],
             'risk_score': prediction['risk_score'],
-            'recommended_department': prediction['recommended_department'],
+            'recommended_department': prediction.get('primary_department', prediction.get('recommended_department')),
             'department_scores': prediction['department_scores'],
             'explainability': prediction['explainability']
         }
@@ -104,3 +84,4 @@ class Database:
         except Exception as e:
             logger.error(f"❌ DB Insert Error: {e}")
             return {}
+
