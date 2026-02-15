@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+postgrest
+pydantic
+supabase
+python-dotenv
+httpx

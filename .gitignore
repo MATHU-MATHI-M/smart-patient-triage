@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
+dist/
+build/
+.next/
+medico-web/.next/
+medico-web/node_modules/
+backend/venv/
+.vscode/
