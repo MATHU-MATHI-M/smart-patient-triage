@@ -42,10 +42,6 @@ Thumbs.db
 *.log
 logs/
 
-# Model files (too large for git)
-*.joblib
-app/models/*.joblib
-
 # Data files
 data/*.csv
 
