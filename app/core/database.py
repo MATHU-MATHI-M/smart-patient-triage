@@ -45,6 +45,21 @@ class Database:
         max_sev = max([s['severity_score'] for s in symptoms] or [1])
         symptom_count = len(symptoms) or 1
         
+        # Medical History - FETCH FROM DATABASE
+        patient_id = visit['patient_id']
+        history_response = client.table('patient_medical_history').select('condition_name, is_chronic').eq('patient_id', patient_id).execute()
+        medical_history = history_response.data or []
+        
+        # Count comorbidities and specific conditions
+        comorbidities_count = len(medical_history)
+        chronic_conditions = sum(1 for h in medical_history if h.get('is_chronic', False))
+        
+        # Check for specific conditions (case-insensitive)
+        conditions_lower = [h.get('condition_name', '').lower() for h in medical_history]
+        cardiac_history = 1 if any('cardiac' in c or 'heart' in c or 'hypertension' in c for c in conditions_lower) else 0
+        diabetes_status = 2 if any('diabetes' in c for c in conditions_lower) else 0  # 2 = has diabetes
+        respiratory_history = 1 if any('asthma' in c or 'copd' in c or 'respiratory' in c for c in conditions_lower) else 0
+        
         return {
             'visit_id': visit_id,
             'age': patient.get('age', 40),
@@ -56,7 +71,12 @@ class Database:
             'chief_complaint': visit.get('chief_complaint', 'general'),
             'chest_pain_severity': chest_pain_sev,
             'max_severity': max_sev,
-            'symptom_count': symptom_count
+            'symptom_count': symptom_count,
+            'comorbidities_count': comorbidities_count,
+            'cardiac_history': cardiac_history,
+            'diabetes_status': diabetes_status,
+            'respiratory_history': respiratory_history,
+            'chronic_conditions': chronic_conditions
         }
 
     @classmethod
