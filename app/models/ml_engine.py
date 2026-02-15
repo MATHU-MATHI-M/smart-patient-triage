@@ -75,7 +75,10 @@ class MLEngine:
         override = self._check_critical_overrides(patient_data)
         if override:
             logging.info(f"🚨 CRITICAL OVERRIDE: {override['reason']}")
-            return override['prediction']
+            # Apply smart multi-label rules to override prediction
+            prediction = override['prediction']
+            prediction = self._apply_smart_multilabel_rules(prediction, patient_data)
+            return prediction
         
         # 1. RISK TRIAGE (ML Model)
         risk_pred_idx = self.model_data['risk_model'].predict(X)[0]
@@ -156,7 +159,8 @@ class MLEngine:
         # 3. EXPLAINABILITY
         explainability = self._real_shap_explanation(X)
         
-        return {
+        # Create prediction dict
+        prediction = {
             'risk_level': str(risk_level),
             'risk_score': round(risk_score, 4),
             'recommended_departments': recommended_depts,  # Multi-label array
@@ -164,6 +168,61 @@ class MLEngine:
             'department_scores': dept_scores,
             'explainability': explainability
         }
+        
+        # Apply smart multi-label rules
+        prediction = self._apply_smart_multilabel_rules(prediction, patient_data)
+        return prediction
+    
+    def _apply_smart_multilabel_rules(self, prediction: Dict[str, Any], patient_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Apply smart multi-label rules to supplement ML/override predictions"""
+        recommended_depts = prediction['recommended_departments']
+        dept_scores = prediction['department_scores']
+        chief_complaint = str(patient_data.get('chief_complaint', '')).lower()
+        
+        # Rule 1: Chest pain → Add Cardiology
+        if patient_data.get('chest_pain_severity', 0) >= 3:
+            if 'Cardiology' not in recommended_depts:
+                recommended_depts.append('Cardiology')
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+        
+        # Rule 2: Head trauma/severe neurological → Add Neurology
+        if (patient_data.get('max_severity', 0) >= 4 and 
+            any(keyword in chief_complaint for keyword in ['head', 'skull', 'brain', 'seizure', 'stroke', 'neuro', 'consciousness'])):
+            if 'Neurology' not in recommended_depts:
+                recommended_depts.append('Neurology')
+                dept_scores['Neurology'] = max(dept_scores.get('Neurology', 0), 0.45)
+        
+        # Rule 3: Respiratory symptoms → Add Respiratory
+        if patient_data.get('respiratory_history', 0) == 1:
+            if 'Respiratory' not in recommended_depts:
+                recommended_depts.append('Respiratory')
+                dept_scores['Respiratory'] = max(dept_scores.get('Respiratory', 0), 0.40)
+        
+        # Rule 4: Cardiac history + elevated vitals → Add Cardiology
+        if (patient_data.get('cardiac_history', 0) == 1 and 
+            (patient_data.get('bp_systolic', 120) >= 160 or patient_data.get('heart_rate', 80) >= 100)):
+            if 'Cardiology' not in recommended_depts:
+                recommended_depts.append('Cardiology')
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+        
+        # Rule 5: Trauma/fracture → Add Orthopedics
+        if any(keyword in chief_complaint for keyword in ['fracture', 'broken', 'bone', 'joint', 'trauma']):
+            if 'Orthopedics' not in recommended_depts and 'Emergency' in recommended_depts:
+                recommended_depts.append('Orthopedics')
+                dept_scores['Orthopedics'] = max(dept_scores.get('Orthopedics', 0), 0.40)
+        
+        # Rule 6: Multiple chronic conditions → Add General Medicine
+        if patient_data.get('chronic_conditions', 0) >= 2 and len(recommended_depts) == 1:
+            if 'General Medicine' not in recommended_depts:
+                recommended_depts.append('General Medicine')
+                dept_scores['General Medicine'] = max(dept_scores.get('General Medicine', 0), 0.35)
+        
+        # Update primary department after adding new departments
+        prediction['primary_department'] = max(dept_scores.items(), key=lambda x: x[1])[0]
+        prediction['recommended_departments'] = recommended_depts
+        prediction['department_scores'] = dept_scores
+        
+        return prediction
     
     def _check_critical_overrides(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """Rule-based safety checks for critical cases that bypass ML model"""
