@@ -1,0 +1,133 @@
+{
+  "total_visits": 8,
+  "department_distribution": {
+    "General Medicine": 3,
+    "Neurology": 1,
+    "Cardiology": 2,
+    "Orthopedics": 2
+  },
+  "risk_level_distribution": {
+    "Medium": 6,
+    "High": 1,
+    "Low": 1
+  },
+  "multi_queue_stats": {
+    "average_queues_per_patient": 3.12,
+    "single_queue_percentage": 0.0,
+    "multi_queue_percentage": 100.0
+  },
+  "confidence_metrics": {
+    "average": 0.672,
+    "min": 0.62,
+    "max": 0.76,
+    "high_confidence_percentage": 37.5
+  },
+  "explainability_coverage": 100.0,
+  "detailed_results": [
+    {
+      "visit_id": 1,
+      "primary_department": "General Medicine",
+      "risk_level": "Medium",
+      "risk_score": 0.36,
+      "queue_departments": [
+        "Emergency",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "confidence": 0.64,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 2,
+      "primary_department": "Neurology",
+      "risk_level": "Medium",
+      "risk_score": 0.5,
+      "queue_departments": [
+        "Emergency",
+        "Cardiology",
+        "Neurology"
+      ],
+      "confidence": 0.68,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 4,
+      "primary_department": "Cardiology",
+      "risk_level": "High",
+      "risk_score": 0.68,
+      "queue_departments": [
+        "Emergency",
+        "Cardiology",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "confidence": 0.62,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 9,
+      "primary_department": "General Medicine",
+      "risk_level": "Low",
+      "risk_score": 0.29,
+      "queue_departments": [
+        "Emergency",
+        "General Medicine"
+      ],
+      "confidence": 0.64,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 15,
+      "primary_department": "Cardiology",
+      "risk_level": "Medium",
+      "risk_score": 0.47,
+      "queue_departments": [
+        "Emergency",
+        "Cardiology"
+      ],
+      "confidence": 0.76,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 20,
+      "primary_department": "Orthopedics",
+      "risk_level": "Medium",
+      "risk_score": 0.51,
+      "queue_departments": [
+        "Emergency",
+        "Cardiology",
+        "Respiratory",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "confidence": 0.7,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 25,
+      "primary_department": "General Medicine",
+      "risk_level": "Medium",
+      "risk_score": 0.38,
+      "queue_departments": [
+        "Emergency",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "confidence": 0.64,
+      "has_explainability": true
+    },
+    {
+      "visit_id": 30,
+      "primary_department": "Orthopedics",
+      "risk_level": "Medium",
+      "risk_score": 0.47,
+      "queue_departments": [
+        "Respiratory",
+        "Orthopedics",
+        "General Medicine"
+      ],
+      "confidence": 0.7,
+      "has_explainability": true
+    }
+  ]
+}
