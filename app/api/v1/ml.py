@@ -13,7 +13,7 @@ class ProcessVisitResponse(BaseModel):
     visit_id: int
     risk_level: str
     risk_score: float
-    recommended_department: str
+    primary_department: str  # Maps to recommended_department in DB
     department_scores: Dict[str, float]
     explainability: Dict[str, float]
 
@@ -37,7 +37,7 @@ async def process_visit(request: ProcessVisitRequest):
             visit_id=request.visit_id,
             risk_level=prediction["risk_level"],
             risk_score=prediction["risk_score"],
-            recommended_department=prediction["recommended_department"],
+            primary_department=prediction["primary_department"],
             department_scores=prediction["department_scores"],
             explainability=prediction["explainability"]
         )

@@ -1,0 +1,99 @@
+{
+  "Fractured Skull": {
+    "risk_level": "High",
+    "risk_score": 0.88,
+    "recommended_departments": [
+      "Emergency",
+      "Neurology",
+      "Orthopedics"
+    ],
+    "primary_department": "Emergency",
+    "department_scores": {
+      "Emergency": 0.85,
+      "Cardiology": 0.02,
+      "General Medicine": 0.01,
+      "Neurology": 0.45,
+      "Orthopedics": 0.4,
+      "Respiratory": 0.005
+    },
+    "explainability": {
+      "max_severity": 5,
+      "chest_pain_severity": 0,
+      "bp_systolic": 140,
+      "comorbidities_count": 0,
+      "cardiac_history": 0
+    }
+  },
+  "Severe Chest Pain + Cardiac History": {
+    "risk_level": "High",
+    "risk_score": 0.88,
+    "recommended_departments": [
+      "Emergency",
+      "Cardiology"
+    ],
+    "primary_department": "Emergency",
+    "department_scores": {
+      "Emergency": 0.85,
+      "Cardiology": 0.4,
+      "General Medicine": 0.01,
+      "Neurology": 0.01,
+      "Orthopedics": 0.005,
+      "Respiratory": 0.005
+    },
+    "explainability": {
+      "max_severity": 5,
+      "chest_pain_severity": 5,
+      "bp_systolic": 180,
+      "comorbidities_count": 2,
+      "cardiac_history": 1
+    }
+  },
+  "Respiratory Distress + Cardiac": {
+    "risk_level": "High",
+    "risk_score": 0.88,
+    "recommended_departments": [
+      "Emergency",
+      "Respiratory",
+      "Cardiology"
+    ],
+    "primary_department": "Emergency",
+    "department_scores": {
+      "Emergency": 0.85,
+      "Cardiology": 0.4,
+      "General Medicine": 0.01,
+      "Neurology": 0.01,
+      "Orthopedics": 0.005,
+      "Respiratory": 0.4
+    },
+    "explainability": {
+      "max_severity": 4,
+      "chest_pain_severity": 2,
+      "bp_systolic": 165,
+      "comorbidities_count": 2,
+      "cardiac_history": 1
+    }
+  },
+  "Low Risk - Minor Headache": {
+    "risk_level": "Low",
+    "risk_score": 0.8868,
+    "recommended_departments": [
+      "General Medicine"
+    ],
+    "primary_department": "General Medicine",
+    "department_scores": {
+      "Cardiology": 0.011511695571243763,
+      "Emergency": 0.016767468303442,
+      "General Medicine": 0.4787375032901764,
+      "Neurology": 0.2115437537431717,
+      "Orthopedics": 0.1321762353181839,
+      "Respiratory": 0.149263396859169
+    },
+    "explainability": {
+      "age": 1.0176,
+      "max_severity": 0.9957,
+      "bp_diastolic": 0.8986,
+      "bp_systolic": 0.8326,
+      "temperature": 0.6875
+    }
+  }
+}

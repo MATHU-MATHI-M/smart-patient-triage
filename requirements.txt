@@ -8,7 +8,7 @@ supabase
 # ML Pipeline
 xgboost
 scikit-learn
-shap>=0.44.0  # Updated for Python 3.12 compatibility
+shap>=0.45.0  # Latest version with Python 3.12 support
 joblib
 pandas
 numpy

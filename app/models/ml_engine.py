@@ -243,11 +243,11 @@ class MLEngine:
                 'reason': f'Severe symptoms (severity={max_sev})',
                 'prediction': {
                     'risk_level': 'High',
-                    'risk_score': 0.95,
+                    'risk_score': 0.88,
                     'recommended_departments': ['Emergency'],
                     'primary_department': 'Emergency',
                     'department_scores': {
-                        'Emergency': 0.95,
+                        'Emergency': 0.85,
                         'Cardiology': 0.02,
                         'General Medicine': 0.01,
                         'Neurology': 0.01,
@@ -270,12 +270,12 @@ class MLEngine:
                 'reason': f'Severe chest pain ({chest_pain}) + cardiac history',
                 'prediction': {
                     'risk_level': 'High',
-                    'risk_score': 0.92,
+                    'risk_score': 0.90,
                     'recommended_departments': ['Emergency', 'Cardiology'],
                     'primary_department': 'Emergency',
                     'department_scores': {
-                        'Emergency': 0.70,
-                        'Cardiology': 0.25,
+                        'Emergency': 0.75,
+                        'Cardiology': 0.45,
                         'General Medicine': 0.02,
                         'Neurology': 0.01,
                         'Orthopedics': 0.01,
@@ -297,11 +297,11 @@ class MLEngine:
                 'reason': f'Critical vitals (BP={bp_sys}/{bp_dia}, HR={hr})',
                 'prediction': {
                     'risk_level': 'High',
-                    'risk_score': 0.93,
+                    'risk_score': 0.87,
                     'recommended_departments': ['Emergency'],
                     'primary_department': 'Emergency',
                     'department_scores': {
-                        'Emergency': 0.85,
+                        'Emergency': 0.80,
                         'Cardiology': 0.10,
                         'General Medicine': 0.02,
                         'Neurology': 0.01,
@@ -324,11 +324,11 @@ class MLEngine:
                 'reason': f'Multiple comorbidities ({comorbidities}) + elevated vitals',
                 'prediction': {
                     'risk_level': 'High',
-                    'risk_score': 0.88,
+                    'risk_score': 0.85,
                     'recommended_departments': ['Emergency'],
                     'primary_department': 'Emergency',
                     'department_scores': {
-                        'Emergency': 0.75,
+                        'Emergency': 0.70,
                         'Cardiology': 0.15,
                         'General Medicine': 0.05,
                         'Neurology': 0.02,
