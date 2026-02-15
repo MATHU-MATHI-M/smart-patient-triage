@@ -107,8 +107,51 @@ class MLEngine:
         if not recommended_depts:
             recommended_depts = [recommended_dept]
         
+        # SMART MULTI-LABEL RULES - Add departments based on symptoms/conditions
+        # This supplements ML predictions to ensure proper multi-department routing
+        
+        # Rule 1: Chest pain → Add Cardiology
+        if patient_data.get('chest_pain_severity', 0) >= 3:
+            if 'Cardiology' not in recommended_depts:
+                recommended_depts.append('Cardiology')
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+        
+        # Rule 2: Head trauma/severe neurological → Add Neurology
+        # Check chief_complaint for head/neuro keywords or max_severity >= 4
+        chief_complaint = str(patient_data.get('chief_complaint', '')).lower()
+        if (patient_data.get('max_severity', 0) >= 4 and 
+            any(keyword in chief_complaint for keyword in ['head', 'skull', 'brain', 'seizure', 'stroke', 'neuro', 'consciousness'])):
+            if 'Neurology' not in recommended_depts:
+                recommended_depts.append('Neurology')
+                dept_scores['Neurology'] = max(dept_scores.get('Neurology', 0), 0.45)
+        
+        # Rule 3: Respiratory symptoms → Add Respiratory
+        if patient_data.get('respiratory_history', 0) == 1:
+            if 'Respiratory' not in recommended_depts:
+                recommended_depts.append('Respiratory')
+                dept_scores['Respiratory'] = max(dept_scores.get('Respiratory', 0), 0.40)
+        
+        # Rule 4: Cardiac history + elevated vitals → Add Cardiology
+        if (patient_data.get('cardiac_history', 0) == 1 and 
+            (patient_data.get('bp_systolic', 120) >= 160 or patient_data.get('heart_rate', 80) >= 100)):
+            if 'Cardiology' not in recommended_depts:
+                recommended_depts.append('Cardiology')
+                dept_scores['Cardiology'] = max(dept_scores.get('Cardiology', 0), 0.40)
+        
+        # Rule 5: Trauma/fracture → Add Orthopedics
+        if any(keyword in chief_complaint for keyword in ['fracture', 'broken', 'bone', 'joint', 'trauma']):
+            if 'Orthopedics' not in recommended_depts and 'Emergency' in recommended_depts:
+                recommended_depts.append('Orthopedics')
+                dept_scores['Orthopedics'] = max(dept_scores.get('Orthopedics', 0), 0.40)
+        
+        # Rule 6: Multiple chronic conditions → Add General Medicine
+        if patient_data.get('chronic_conditions', 0) >= 2 and len(recommended_depts) == 1:
+            if 'General Medicine' not in recommended_depts:
+                recommended_depts.append('General Medicine')
+                dept_scores['General Medicine'] = max(dept_scores.get('General Medicine', 0), 0.35)
+        
         # Primary department is the highest scoring
-        primary_dept = recommended_dept
+        primary_dept = max(dept_scores.items(), key=lambda x: x[1])[0]
         
         # 3. EXPLAINABILITY
         explainability = self._real_shap_explanation(X)
